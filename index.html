@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -10,68 +10,80 @@
   <body class="font-jakarta">
     <nav
       id="navbar"
-      class="backdrop-blur-md shadow-xl fixed w-full top-0 z-50 animate-fadeInDown">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex items-center justify-between h-16">
+      class="animate-fadeInDown fixed top-0 z-50 w-full shadow-xl backdrop-blur-md"
+    >
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 items-center justify-between">
           <div class="flex-shrink-0">
             <a href="index.html">
               <img
                 src="/logo.png"
                 alt="logo"
-                class="hover:scale-105 transition-all" />
+                class="transition-all hover:scale-105"
+              />
             </a>
           </div>
 
           <div class="hidden md:flex md:items-center md:space-x-8">
             <a
               href="#"
-              class="text-white hover:text-main px-3 py-2 rounded-md text-sm font-medium transition-colors relative group">
+              class="hover:text-main group relative rounded-md px-3 py-2 text-sm font-medium text-white transition-colors"
+            >
               Home
               <span
-                class="absolute bottom-0 left-0 w-full h-0.5 bg-main transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out">
+                class="bg-main absolute bottom-0 left-0 h-0.5 w-full scale-x-0 transform transition-transform duration-300 ease-out group-hover:scale-x-100"
+              >
               </span>
             </a>
             <a
               href="#"
-              class="text-white hover:text-main px-3 py-2 rounded-md text-sm font-medium transition-colors relative group">
+              class="hover:text-main group relative rounded-md px-3 py-2 text-sm font-medium text-white transition-colors"
+            >
               About
               <span
-                class="absolute bottom-0 left-0 w-full h-0.5 bg-main transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out">
+                class="bg-main absolute bottom-0 left-0 h-0.5 w-full scale-x-0 transform transition-transform duration-300 ease-out group-hover:scale-x-100"
+              >
               </span>
             </a>
             <a
               href="#"
-              class="text-white hover:text-main px-3 py-2 rounded-md text-sm font-medium transition-colors relative group">
+              class="hover:text-main group relative rounded-md px-3 py-2 text-sm font-medium text-white transition-colors"
+            >
               Services
               <span
-                class="absolute bottom-0 left-0 w-full h-0.5 bg-main transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out">
+                class="bg-main absolute bottom-0 left-0 h-0.5 w-full scale-x-0 transform transition-transform duration-300 ease-out group-hover:scale-x-100"
+              >
               </span>
             </a>
             <a
               href="#"
-              class="text-white hover:text-main px-3 py-2 rounded-md text-sm font-medium transition-colors relative group">
+              class="hover:text-main group relative rounded-md px-3 py-2 text-sm font-medium text-white transition-colors"
+            >
               Portfolio
               <span
-                class="absolute bottom-0 left-0 w-full h-0.5 bg-main transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out">
+                class="bg-main absolute bottom-0 left-0 h-0.5 w-full scale-x-0 transform transition-transform duration-300 ease-out group-hover:scale-x-100"
+              >
               </span>
             </a>
           </div>
 
-          <div class="hidden md:block hover:scale-105">
+          <div class="hidden hover:scale-105 md:block">
             <a
               href="#"
               id="contact-btn-desktop"
-              class="bg-main text-white font-semibold py-2 px-4 rounded-lg shadow-md transition-all duration-300 ease-in-out">
+              class="bg-main rounded-lg px-4 py-2 font-semibold text-white shadow-md transition-all duration-300 ease-in-out"
+            >
               Register Interest
             </a>
           </div>
 
           <!-- mobile menu btns -->
-          <div class="md:hidden flex items-center">
+          <div class="flex items-center md:hidden">
             <button
               id="mobile-menu-button"
-              class="inline-flex items-center justify-center p-2 rounded-md text-white active:text-main transition-all active:scale-110"
-              aria-expanded="false">
+              class="active:text-main inline-flex items-center justify-center rounded-md p-2 text-white transition-all active:scale-110"
+              aria-expanded="false"
+            >
               <span class="sr-only">Open main menu</span>
               <svg
                 id="hamburger-icon"
@@ -80,12 +92,14 @@
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                aria-hidden="true">
+                aria-hidden="true"
+              >
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
-                  d="M4 6h16M4 12h16m-4 6h4" />
+                  d="M4 6h16M4 12h16m-4 6h4"
+                />
               </svg>
               <svg
                 id="close-icon"
@@ -94,12 +108,14 @@
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                aria-hidden="true">
+                aria-hidden="true"
+              >
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
-                  d="M6 18L18 6M6 6l12 12" />
+                  d="M6 18L18 6M6 6l12 12"
+                />
               </svg>
             </button>
           </div>
@@ -108,31 +124,33 @@
 
       <div
         id="mobile-menu"
-        class="md:hidden mobile-menu max-h-0 overflow-hidden">
-        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center">
+        class="mobile-menu max-h-0 overflow-hidden md:hidden"
+      >
+        <div class="space-y-1 px-2 pt-2 pb-3 text-center sm:px-3">
           <a
             href="#"
-            class="text-white hover:bg-red-50 hover:text-main block px-3 py-2 rounded-md text-base font-medium transition-colors"
+            class="hover:text-main block rounded-md px-3 py-2 text-base font-medium text-white transition-colors hover:bg-red-50"
             >Home</a
           >
           <a
             href="#"
-            class="text-white hover:bg-red-50 hover:text-main block px-3 py-2 rounded-md text-base font-medium transition-colors"
+            class="hover:text-main block rounded-md px-3 py-2 text-base font-medium text-white transition-colors hover:bg-red-50"
             >About</a
           >
           <a
             href="#"
-            class="text-white hover:bg-red-50 hover:text-main block px-3 py-2 rounded-md text-base font-medium transition-colors"
+            class="hover:text-main block rounded-md px-3 py-2 text-base font-medium text-white transition-colors hover:bg-red-50"
             >Services</a
           >
           <a
             href="#"
-            class="text-white hover:bg-red-50 hover:text-main block px-3 py-2 rounded-md text-base font-medium transition-colors"
+            class="hover:text-main block rounded-md px-3 py-2 text-base font-medium text-white transition-colors hover:bg-red-50"
             >Portfolio</a
           >
           <a
             href="#"
-            class="bg-main text-white block text-center font-semibold py-2 px-4 rounded-lg shadow-md transition-all duration-300 ease-in-out mt-2 transform hover:scale-105">
+            class="bg-main mt-2 block transform rounded-lg px-4 py-2 text-center font-semibold text-white shadow-md transition-all duration-300 ease-in-out hover:scale-105"
+          >
             register interest
           </a>
         </div>
@@ -142,20 +160,23 @@
     <main>
       <section
         id="hero"
-        class="bg-[url('/hero.png')] bg-cover bg-center h-screen -z-1 w-full top-0">
+        class="top-0 -z-1 h-screen w-full bg-[url('/hero.png')] bg-cover bg-center"
+      >
         <div
-          class="container text-center h-150 flex text-white my-auto flex-col items-center justify-center mx-auto">
-          <p class="text-base lg:text-xl font-semibold">
+          class="container mx-auto my-auto flex h-150 flex-col items-center justify-center text-center text-white"
+        >
+          <p class="text-base font-semibold lg:text-xl">
             Discover <span class="text-main font-extrabold">-</span> Interact
             <span class="text-main font-extrabold">-</span> Engage
           </p>
           <h1
-            class="mt-4 text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
+            class="mt-4 text-4xl leading-tight font-bold md:text-5xl xl:text-6xl"
+          >
             Connecting <span class="text-main underline">talent</span> to
             <br />
             opportunity through <span class="text-main underline">skills</span>
           </h1>
-          <p class="mt-6 md:w-2xl px-6 text-semibold xl:text-lg">
+          <p class="text-semibold mt-6 px-6 md:w-2xl xl:text-lg">
             We forster a skill-focussed environment enabling students to
             navigate their career with their self-paced learning journey and
             businesses to gain market-ready talent.
@@ -163,9 +184,111 @@
           <a
             href="#"
             id="contact-btn-desktop"
-            class="bg-main text-white mt-6 font-semibold py-2 px-4 rounded-lg shadow-md transition-all duration-300 ease-in hover:scale-105">
+            class="bg-main mt-6 rounded-lg px-4 py-2 font-semibold text-white shadow-md transition-all duration-300 ease-in hover:scale-105"
+          >
             Ask question
           </a>
+        </div>
+      </section>
+
+      <section id="C4U " class="bg-gray-100 py-16">
+        <div class="mx-auto max-w-7xl">
+          <div
+            class="grid grid-cols-1 gap-y-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+          >
+            <div
+              class="flex h-full flex-col items-start justify-center justify-self-center ps-4"
+            >
+              <h2 class="text-3xl font-bold md:text-4xl">
+                At <span class="text-main underline">C4U </span>, <br />
+                We Empower:
+              </h2>
+            </div>
+            <div
+              class="mx-4 flex max-w-74 flex-col items-center justify-center justify-self-center rounded-lg bg-slate-800 px-6 py-12 text-white transition-all ease-in hover:scale-105 hover:shadow-2xl"
+            >
+              <div
+                class="border-primary-red mb-4 flex h-12 w-12 items-center justify-center rounded-full border-2"
+              >
+                <svg
+                  class="h-6 w-6 text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 11c0 3.517-1.045 6.79-3 9.5M12 11c0 3.517 1.045 6.79 3 9.5M12 11V9m8.239-2.492A7.962 7.962 0 0112 4c-1.75 0-3.4.476-4.839 1.308L3 7m0 3.825V17a2 2 0 002 2h4.517A10.025 10.025 0 0112 21a10.025 0 012.483-2H19a2 2 0 002-2v-5.175l-.839-.422z"
+                  ></path>
+                </svg>
+              </div>
+              <h3 class="mb-2 text-xl font-bold">Students</h3>
+              <p class="text-sm text-gray-400">
+                We help students find their way in a fast-evolving world by
+                creating a personalised learning journey guaranteed to help
+                stand out in a crowded job market.
+              </p>
+            </div>
+            <div
+              class="mx-4 flex max-w-74 flex-col items-center justify-center justify-self-center rounded-lg bg-slate-800 px-6 py-12 text-white transition-all ease-in hover:scale-105 hover:shadow-2xl"
+            >
+              <div
+                class="border-primary-red mb-4 flex h-12 w-12 items-center justify-center rounded-full border-2"
+              >
+                <svg
+                  class="h-6 w-6 text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422m-7.857 12.982l-.008-.008a6.722 6.722 0 01-5.972-5.972v-.009L4.11 10.7l5.86-3.25M12 14l-6.16 3.422m6.16-12.982.008.008a6.722 6.722 0 015.972 5.972v.009L19.89 10.7l-5.86 3.25M12 14zm0 0a6.722 6.722 0 01-5.972 5.972v.009L4.11 10.7l5.86-3.25A6.722 6.722 0 0112 14z"
+                  ></path>
+                </svg>
+              </div>
+              <h3 class="mb-2 text-xl font-bold">Universities</h3>
+              <p class="text-sm text-gray-400">
+                We help students find their way in a fast-evolving world by
+                creating a personalised learning journey guaranteed to help
+                stand out in a crowded job market.
+              </p>
+            </div>
+            <div
+              class="mx-4 flex max-w-74 flex-col items-center justify-center justify-self-center rounded-lg bg-slate-800 px-6 py-12 text-white transition-all ease-in hover:scale-105 hover:shadow-2xl"
+            >
+              <div
+                class="border-primary-red mb-4 flex h-12 w-12 items-center justify-center rounded-full border-2"
+              >
+                <svg
+                  class="h-6 w-6 text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                  ></path>
+                </svg>
+              </div>
+              <h3 class="mb-2 text-xl font-bold">businesses</h3>
+              <p class="text-sm text-gray-400">
+                We help students find their way in a fast-evolving world by
+                creating a personalised learning journey guaranteed to help
+                stand out in a crowded job market.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
