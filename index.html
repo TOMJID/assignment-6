@@ -27,7 +27,7 @@
           <div class="hidden md:flex md:items-center md:space-x-8">
             <a
               href="#"
-              class="hover:text-main group relative rounded-md px-3 py-2 text-sm font-medium text-white transition-colors"
+              class="hover:text-main group text-main relative rounded-md px-3 py-2 text-sm font-medium transition-colors md:text-lg"
             >
               Home
               <span
@@ -37,7 +37,7 @@
             </a>
             <a
               href="#"
-              class="hover:text-main group relative rounded-md px-3 py-2 text-sm font-medium text-white transition-colors"
+              class="hover:text-main group text-main relative rounded-md px-3 py-2 text-sm font-medium transition-colors md:text-lg"
             >
               About
               <span
@@ -47,17 +47,17 @@
             </a>
             <a
               href="#"
-              class="hover:text-main group relative rounded-md px-3 py-2 text-sm font-medium text-white transition-colors"
+              class="hover:text-main group text-main relative rounded-md px-3 py-2 text-sm font-medium transition-colors md:text-lg"
             >
               Services
               <span
-                class="bg-main absolute bottom-0 left-0 h-0.5 w-full scale-x-0 transform transition-transform duration-300 ease-out group-hover:scale-x-100"
+                class="bg-main absolute bottom-0 left-0 h-0.5 w-full scale-x-0 transform transition-transform duration-300 ease-out group-hover:scale-x-100 md:text-lg"
               >
               </span>
             </a>
             <a
               href="#"
-              class="hover:text-main group relative rounded-md px-3 py-2 text-sm font-medium text-white transition-colors"
+              class="hover:text-main group text-main relative rounded-md px-3 py-2 text-sm font-medium transition-colors md:text-lg"
             >
               Portfolio
               <span
@@ -81,7 +81,7 @@
           <div class="flex items-center md:hidden">
             <button
               id="mobile-menu-button"
-              class="active:text-main inline-flex items-center justify-center rounded-md p-2 text-white transition-all active:scale-110"
+              class="text-main inline-flex items-center justify-center rounded-md p-2 transition-all active:scale-110 active:text-gray-500"
               aria-expanded="false"
             >
               <span class="sr-only">Open main menu</span>
@@ -129,22 +129,22 @@
         <div class="space-y-1 px-2 pt-2 pb-3 text-center sm:px-3">
           <a
             href="#"
-            class="hover:text-main block rounded-md px-3 py-2 text-base font-medium text-white transition-colors hover:bg-red-50"
+            class="text-main block rounded-md px-3 py-2 text-base font-medium transition-colors hover:bg-red-50"
             >Home</a
           >
           <a
             href="#"
-            class="hover:text-main block rounded-md px-3 py-2 text-base font-medium text-white transition-colors hover:bg-red-50"
+            class="text-main block rounded-md px-3 py-2 text-base font-medium transition-colors hover:bg-red-50"
             >About</a
           >
           <a
             href="#"
-            class="hover:text-main block rounded-md px-3 py-2 text-base font-medium text-white transition-colors hover:bg-red-50"
+            class="text-main block rounded-md px-3 py-2 text-base font-medium transition-colors hover:bg-red-50"
             >Services</a
           >
           <a
             href="#"
-            class="hover:text-main block rounded-md px-3 py-2 text-base font-medium text-white transition-colors hover:bg-red-50"
+            class="text-main block rounded-md px-3 py-2 text-base font-medium transition-colors hover:bg-red-50"
             >Portfolio</a
           >
           <a
@@ -291,308 +291,296 @@
           </div>
         </div>
       </section>
-      <!-- =================== About-Us Section Start =================== -->
 
-      <section class="mx-auto max-w-360 bg-neutral-100 px-4 md:px-8">
-        <div class="relative">
-          <!-- Vertical line and green dots -->
-          <div
-            class="absolute top-35 left-1/2 z-[2] hidden h-full w-0.5 -translate-x-1/2 transform bg-zinc-400/50 md:block"
-          >
-            <!-- Top dot -->
+      <section id="timeline" class="bg-neutral-100">
+        <div class="mx-auto max-w-360 px-4 md:px-8">
+          <div class="relative">
+            <!-- Vertical line and green dots -->
             <div
-              class="absolute top-0 left-1/2 h-5 w-5 -translate-x-1/2 transform rounded-full bg-green-400"
-            ></div>
-            <!-- Middle dot -->
-            <div
-              class="absolute top-1/2 left-1/2 h-3 w-3 -translate-x-1/2 -translate-y-1/2 transform rounded-full bg-green-400"
-            ></div>
-            <!-- Bottom dot -->
-            <div
-              class="absolute bottom-0 left-1/2 h-3 w-3 -translate-x-1/2 transform rounded-full bg-green-400"
-            ></div>
-          </div>
-
-          <div id="about" class="relative z-[1] pb-[167px] md:pt-0">
-            <!-- Item 1: Mission -->
-            <div
-              class="relative flex flex-col gap-10 pt-[167px] md:h-[700px] md:flex-row md:gap-8"
+              class="absolute top-35 left-1/2 z-[2] hidden h-full w-0.5 -translate-x-1/2 transform bg-zinc-400/50 md:block"
             >
-              <!-- Left content -->
-              <div class="flex flex-col items-start rounded-lg md:w-1/2">
-                <h4
-                  class="mb-3 text-xs font-medium tracking-widest text-[#FF6B6B] uppercase"
-                >
-                  About us
-                </h4>
-                <h2
-                  class="mb-10 text-[2rem] leading-tight font-semibold text-[#1E1E1E] md:text-[2.5rem]"
-                >
-                  Our Mission
-                </h2>
-                <p
-                  class="mb-24 max-w-md text-base leading-relaxed text-gray-600"
-                >
-                  To create a personalised pathway for continuous learning and
-                  transferrable skills development.
-                </p>
-
-                <!-- Button -->
-                <button
-                  class="group relative inline-flex h-12 cursor-pointer items-center justify-center rounded-full border-2 border-[#FF3B30] bg-white px-6 font-medium text-[#FF3B30] transition-all duration-300 hover:bg-[#FF3B30] hover:text-white"
-                >
-                  <span
-                    class="transition-colors duration-300 group-hover:text-white"
-                    >Find out more</span
-                  >
-                  <div
-                    class="ml-2 transform transition-transform duration-300 group-hover:translate-x-1"
-                  >
-                    <svg
-                      width="15"
-                      height="15"
-                      viewBox="0 0 15 15"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
-                    >
-                      <path
-                        d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
-                        fill="currentColor"
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                      ></path>
-                    </svg>
-                  </div>
-                </button>
-              </div>
-
-              <!-- Right floating images (Mission) -->
+              <!-- Top dot -->
               <div
-                class="mission-items relative mt-8 min-h-[33.125rem] md:mt-0 md:w-1/2"
-              >
-                <!-- image-2 -->
-                <div
-                  class="absolute top-[30%] left-[20%] h-[40px] w-[40px] md:h-[80px] md:w-[80px]"
-                >
-                  <span
-                    class="absolute top-[-8px] right-[-8px] z-0 h-6 w-6 rounded-full bg-[#FDC500] md:h-8 md:w-8"
-                  ></span>
-                  <img
-                    src="/m2.jpg"
-                    alt=""
-                    class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-lg transition-all hover:animate-bounce"
-                  />
-                </div>
-
-                <!-- image-1-->
-                <div
-                  class="absolute top-[8%] right-[20%] h-[100px] w-[100px] md:h-[120px] md:w-[120px]"
-                >
-                  <span
-                    class="absolute right-[-8px] bottom-[-8px] z-0 h-6 w-6 rounded-full bg-[#4726FF] md:h-8 md:w-8"
-                  ></span>
-                  <img
-                    src="/m1.jpg"
-                    alt=""
-                    class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-xl transition-all hover:animate-bounce"
-                  />
-                </div>
-
-                <!-- middle image in center -->
-                <div
-                  class="absolute bottom-1/2 left-1/2 hidden h-[70px] w-[70px] translate-x-[-50%] translate-y-[50%] sm:block md:h-[80px] md:w-[80px]"
-                >
-                  <img
-                    src="/middle.jpg"
-                    alt=""
-                    class="h-full w-full rounded-[1rem] object-cover shadow-md transition-all hover:animate-bounce"
-                  />
-                </div>
-
-                <!-- image-3 -->
-                <div
-                  class="absolute bottom-[20%] left-[65%] h-[90px] w-[90px] md:h-[110px] md:w-[110px]"
-                >
-                  <img
-                    src="/m3.jpg"
-                    alt=""
-                    class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-lg transition-all hover:animate-bounce"
-                  />
-                </div>
-
-                <!-- image-4 -->
-                <div
-                  class="absolute right-[60%] bottom-[10%] h-[90px] w-[90px] md:h-[110px] md:w-[110px]"
-                >
-                  <img
-                    src="/combined-shape.png"
-                    alt=""
-                    class="absolute top-[-25px] right-[-25px] z-[-99] h-full w-full rounded-[1rem] transition-all hover:animate-bounce"
-                  />
-                  <img
-                    src="/m4.jpg"
-                    alt=""
-                    class="h-full w-full rounded-[1rem] object-cover shadow-md transition-all hover:animate-bounce"
-                  />
-                </div>
-              </div>
-
-              <!-- Background decoration -->
-              <img
-                src="/Path.jpg"
-                alt=""
-                class="absolute right-0 bottom-0 left-0 z-[-2] mx-auto"
-              />
-              <img
-                src="/Oval.jpg"
-                alt=""
-                class="absolute right-0 bottom-0 left-0 z-[-2] mx-auto"
-              />
+                class="absolute top-0 left-1/2 h-5 w-5 -translate-x-1/2 transform rounded-full bg-green-400"
+              ></div>
+              <!-- Middle dot -->
+              <div
+                class="absolute top-1/2 left-1/2 h-3 w-3 -translate-x-1/2 -translate-y-1/2 transform rounded-full bg-green-400"
+              ></div>
+              <!-- Bottom dot -->
+              <div
+                class="absolute bottom-0 left-1/2 h-3 w-3 -translate-x-1/2 transform rounded-full bg-green-400"
+              ></div>
             </div>
 
-            <!-- Item 2: Vision -->
-            <div
-              class="relative flex flex-col-reverse gap-6 pt-[167px] md:h-[680px] md:flex-row md:gap-8"
-            >
-              <!-- Left floating images (Vision) -->
-
-              <!-- image-2-->
+            <div id="about" class="relative z-[1] pb-[167px] md:pt-0">
+              <!-- Item 1: Mission -->
               <div
-                class="mission-items relative mt-8 min-h-[33.125rem] md:mt-0 md:w-1/2"
+                class="relative flex flex-col gap-10 pt-[167px] md:h-[700px] md:flex-row md:gap-8"
               >
-                <div
-                  class="absolute top-[25%] right-[65%] h-[90px] w-[90px] md:h-[80px] md:w-[80px]"
-                >
-                  <span
-                    class="absolute top-[-8px] left-[70%] z-0 h-6 w-6 rounded-full bg-[#FDC500] md:h-8 md:w-8"
-                  ></span>
-                  <img
-                    src="/v2.jpg"
-                    alt=""
-                    class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-lg transition-all hover:animate-bounce"
-                  />
-                </div>
-
-                <!-- image-1-->
-                <div
-                  class="absolute top-[5%] left-[60%] h-[100px] w-[100px] md:h-[120px] md:w-[120px]"
-                >
-                  <span
-                    class="absolute bottom-[-8px] left-[80%] z-0 h-6 w-6 rounded-full bg-[#4726FF] md:h-8 md:w-8"
-                  ></span>
-                  <img
-                    src="/v1.jpg"
-                    alt=""
-                    class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-xl transition-all hover:animate-bounce"
-                  />
-                </div>
-
-                <!-- middle image in center -->
-                <div
-                  class="absolute bottom-1/2 left-1/2 hidden h-[70px] w-[70px] translate-x-[-50%] translate-y-[50%] sm:block md:h-[60px] md:w-[60px]"
-                >
-                  <img
-                    src="/v-middle.jpg"
-                    alt=""
-                    class="h-full w-full rounded-[1rem] object-cover shadow-md transition-all hover:animate-bounce"
-                  />
-                </div>
-
-                <!-- image-3-->
-                <div
-                  class="absolute right-[20%] bottom-[35%] h-[90px] w-[90px] md:h-[80px] md:w-[80px]"
-                >
-                  <img
-                    src="/v3.jpg"
-                    alt=""
-                    class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-lg transition-all hover:animate-bounce"
-                  />
-                </div>
-
-                <!-- image-4-->
-                <div
-                  class="absolute bottom-[10%] left-[25%] h-[90px] w-[90px] md:h-[110px] md:w-[110px]"
-                >
-                  <img
-                    src="/combined-shape.png"
-                    alt=""
-                    class="absolute top-[-30px] left-[30px] z-[-1] h-full w-full rounded-[1rem]"
-                  />
-                  <img
-                    src="/v4.jpg"
-                    alt=""
-                    class="h-full w-full rounded-[1rem] object-cover shadow-md transition-all hover:animate-bounce"
-                  />
-                </div>
-              </div>
-
-              <!-- Right content -->
-              <div
-                class="flex flex-col items-start rounded-lg md:w-1/2 md:pl-12"
-              >
-                <h4
-                  class="mb-3 text-xs font-medium tracking-widest text-[#FF6B6B] uppercase"
-                >
-                  About us
-                </h4>
-                <h2
-                  class="mb-10 text-[2rem] leading-tight font-semibold text-[#1E1E1E] md:text-[2.5rem]"
-                >
-                  Our Vision
-                </h2>
-                <p
-                  class="mb-24 max-w-md text-base leading-relaxed text-gray-600"
-                >
-                  To have a globally recognised strategic bridge between
-                  education and the job market.
-                </p>
-
-                <!-- Button -->
-                <button
-                  class="group relative inline-flex h-12 cursor-pointer items-center justify-center rounded-full border-2 border-[#FF3B30] bg-white px-6 font-medium text-[#FF3B30] transition-all duration-300 hover:bg-[#FF3B30] hover:text-white"
-                >
-                  <span
-                    class="transition-colors duration-300 group-hover:text-white"
-                    >Contact Us</span
+                <!-- Left content -->
+                <div class="flex flex-col items-start rounded-lg md:w-1/2">
+                  <h4
+                    class="text-main mb-3 text-xs font-medium tracking-widest uppercase"
                   >
-                  <div
-                    class="ml-2 transform transition-transform duration-300 group-hover:translate-x-1"
+                    About us
+                  </h4>
+                  <h2
+                    class="mb-10 text-[2rem] leading-tight font-semibold text-[#1E1E1E] md:text-[2.5rem]"
                   >
-                    <svg
-                      width="15"
-                      height="15"
-                      viewBox="0 0 15 15"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                    Our Mission
+                  </h2>
+                  <p
+                    class="mb-24 max-w-md text-base leading-relaxed text-gray-600"
+                  >
+                    To create a personalised pathway for continuous learning and
+                    transferrable skills development.
+                  </p>
+
+                  <!-- Button -->
+                  <button
+                    class="group border-main text-main hover:bg-main relative inline-flex h-12 cursor-pointer items-center justify-center rounded-full border-2 bg-white px-6 font-medium transition-all duration-300 hover:text-white"
+                  >
+                    <span
+                      class="transition-colors duration-300 group-hover:text-white"
+                      >Find out more</span
                     >
-                      <path
-                        d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
-                        fill="currentColor"
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                      ></path>
-                    </svg>
+                    <div
+                      class="ml-2 transform transition-transform duration-300 group-hover:translate-x-1"
+                    >
+                      <svg
+                        width="15"
+                        height="15"
+                        viewBox="0 0 15 15"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                      >
+                        <path
+                          d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                          fill="currentColor"
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+
+                <div
+                  class="mission-items relative mt-8 min-h-[33.125rem] md:mt-0 md:w-1/2"
+                >
+                  <div
+                    class="absolute top-[30%] left-[20%] h-[40px] w-[40px] md:h-[80px] md:w-[80px]"
+                  >
+                    <span
+                      class="absolute top-[-8px] right-[-8px] z-0 h-6 w-6 rounded-full bg-[#FDC500] md:h-8 md:w-8"
+                    ></span>
+                    <img
+                      src="/m2.jpg"
+                      alt=""
+                      class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-lg transition-all hover:animate-bounce"
+                    />
                   </div>
-                </button>
+
+                  <div
+                    class="absolute top-[8%] right-[20%] h-[100px] w-[100px] md:h-[120px] md:w-[120px]"
+                  >
+                    <span
+                      class="absolute right-[-8px] bottom-[-8px] z-0 h-6 w-6 rounded-full bg-[#4726FF] md:h-8 md:w-8"
+                    ></span>
+                    <img
+                      src="/m1.jpg"
+                      alt=""
+                      class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-xl transition-all hover:animate-bounce"
+                    />
+                  </div>
+
+                  <div
+                    class="absolute bottom-1/2 left-1/2 hidden h-[70px] w-[70px] translate-x-[-50%] translate-y-[50%] sm:block md:h-[80px] md:w-[80px]"
+                  >
+                    <img
+                      src="/middle.jpg"
+                      alt=""
+                      class="h-full w-full rounded-[1rem] object-cover shadow-md transition-all hover:animate-bounce"
+                    />
+                  </div>
+
+                  <div
+                    class="absolute bottom-[20%] left-[65%] h-[90px] w-[90px] md:h-[110px] md:w-[110px]"
+                  >
+                    <img
+                      src="/m3.jpg"
+                      alt=""
+                      class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-lg transition-all hover:animate-bounce"
+                    />
+                  </div>
+
+                  <div
+                    class="absolute right-[60%] bottom-[10%] h-[90px] w-[90px] md:h-[110px] md:w-[110px]"
+                  >
+                    <img
+                      src="/combined-shape.png"
+                      alt=""
+                      class="absolute top-[-25px] right-[-25px] z-[-99] h-full w-full rounded-[1rem] transition-all hover:animate-bounce"
+                    />
+                    <img
+                      src="/m4.jpg"
+                      alt=""
+                      class="h-full w-full rounded-[1rem] object-cover shadow-md transition-all hover:animate-bounce"
+                    />
+                  </div>
+                </div>
+
+                <img
+                  src="/Path.jpg"
+                  alt=""
+                  class="absolute right-0 bottom-0 left-0 z-[-2] mx-auto"
+                />
+                <img
+                  src="/Oval.jpg"
+                  alt=""
+                  class="absolute right-0 bottom-0 left-0 z-[-2] mx-auto"
+                />
               </div>
 
-              <!-- Background decoration -->
-              <img
-                src="/Oval.jpg"
-                alt=""
-                class="absolute inset-0 z-[-2] mx-auto"
-              />
+              <!-- Item 2: Vision -->
+              <div
+                class="relative flex flex-col-reverse gap-6 pt-[167px] md:h-[680px] md:flex-row md:gap-8"
+              >
+                <div
+                  class="mission-items relative mt-8 min-h-[33.125rem] md:mt-0 md:w-1/2"
+                >
+                  <div
+                    class="absolute top-[25%] right-[65%] h-[90px] w-[90px] md:h-[80px] md:w-[80px]"
+                  >
+                    <span
+                      class="absolute top-[-8px] left-[70%] z-0 h-6 w-6 rounded-full bg-[#FDC500] md:h-8 md:w-8"
+                    ></span>
+                    <img
+                      src="/v2.jpg"
+                      alt=""
+                      class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-lg transition-all hover:animate-bounce"
+                    />
+                  </div>
+
+                  <!-- image-1-->
+                  <div
+                    class="absolute top-[5%] left-[60%] h-[100px] w-[100px] md:h-[120px] md:w-[120px]"
+                  >
+                    <span
+                      class="absolute bottom-[-8px] left-[80%] z-0 h-6 w-6 rounded-full bg-[#4726FF] md:h-8 md:w-8"
+                    ></span>
+                    <img
+                      src="/v1.jpg"
+                      alt=""
+                      class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-xl transition-all hover:animate-bounce"
+                    />
+                  </div>
+
+                  <!-- middle image in center -->
+                  <div
+                    class="absolute bottom-1/2 left-1/2 hidden h-[70px] w-[70px] translate-x-[-50%] translate-y-[50%] sm:block md:h-[60px] md:w-[60px]"
+                  >
+                    <img
+                      src="/v-middle.jpg"
+                      alt=""
+                      class="h-full w-full rounded-[1rem] object-cover shadow-md transition-all hover:animate-bounce"
+                    />
+                  </div>
+
+                  <!-- image-3-->
+                  <div
+                    class="absolute right-[20%] bottom-[35%] h-[90px] w-[90px] md:h-[80px] md:w-[80px]"
+                  >
+                    <img
+                      src="/v3.jpg"
+                      alt=""
+                      class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-lg transition-all hover:animate-bounce"
+                    />
+                  </div>
+
+                  <!-- image-4-->
+                  <div
+                    class="absolute bottom-[10%] left-[25%] h-[90px] w-[90px] md:h-[110px] md:w-[110px]"
+                  >
+                    <img
+                      src="/combined-shape.png"
+                      alt=""
+                      class="absolute top-[-30px] left-[30px] z-[-1] h-full w-full rounded-[1rem]"
+                    />
+                    <img
+                      src="/v4.jpg"
+                      alt=""
+                      class="h-full w-full rounded-[1rem] object-cover shadow-md transition-all hover:animate-bounce"
+                    />
+                  </div>
+                </div>
+
+                <!-- Right content -->
+                <div
+                  class="flex flex-col items-start rounded-lg md:w-1/2 md:pl-12"
+                >
+                  <h4
+                    class="text-main mb-3 text-xs font-medium tracking-widest uppercase"
+                  >
+                    About us
+                  </h4>
+                  <h2
+                    class="mb-10 text-[2rem] leading-tight font-semibold text-[#1E1E1E] md:text-[2.5rem]"
+                  >
+                    Our Vision
+                  </h2>
+                  <p
+                    class="mb-24 max-w-md text-base leading-relaxed text-gray-600"
+                  >
+                    To have a globally recognized strategic bridge between
+                    education and the job market.
+                  </p>
+
+                  <!-- Button -->
+                  <button
+                    class="group border-main text-main hover:bg-main relative inline-flex h-12 cursor-pointer items-center justify-center rounded-full border-2 bg-white px-6 font-medium transition-all duration-300 hover:text-white"
+                  >
+                    <span
+                      class="transition-colors duration-300 group-hover:text-white"
+                      >Contact Us</span
+                    >
+                    <div
+                      class="ml-2 transform transition-transform duration-300 group-hover:translate-x-1"
+                    >
+                      <svg
+                        width="15"
+                        height="15"
+                        viewBox="0 0 15 15"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                      >
+                        <path
+                          d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                          fill="currentColor"
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+
+                <!-- Background decoration -->
+                <img
+                  src="/Oval.jpg"
+                  alt=""
+                  class="absolute inset-0 z-[-2] mx-auto"
+                />
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- =================== ABout-Us Section End =================== -->
-
-      <!-- =================== Feature-Section Start =================== -->
-      <section class="mx-auto max-w-360 bg-white px-4 md:px-8">
+      <section class="mx-auto mt-32 max-w-360 bg-white px-4 md:px-8 lg:mt-0">
         <div class="bg-white py-6 sm:py-8 lg:py-35">
           <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
             <!-- text - start -->
@@ -742,6 +730,506 @@
                 >
               </div>
               <!-- feature-card-3 end-->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="team">
+        <div class="mx-auto max-w-360 px-4 md:px-8"></div>
+        <div class="relative py-6 sm:py-8 lg:py-[8.25rem]">
+          <!-- Image Area -->
+          <div class="img_area absolute top-0 right-0 left-0 -z-1">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width=""
+              height=""
+              viewBox="0 0 1440 543"
+              fill="none"
+              class="mx-auto bg-blend-multiply"
+            >
+              <path
+                d="M0 0H1440V173C1440 377.345 1274.35 543 1070 543H370C165.655 543 0 377.345 0 173V0Z"
+                fill="#F9CCC7"
+                fill-opacity="0.15"
+              />
+            </svg>
+          </div>
+          <div class="">
+            <!-- text - start -->
+            <div class="relative mb-8 max-w-[26.5rem] md:mb-12">
+              <h2 class="text-[2.5rem] font-semibold text-gray-800">
+                The Creative Team behind
+                <span class="text-red-600">the door</span>
+              </h2>
+              <div
+                class="absolute -top-[10%] -right-[5%] z-[-1] md:top-[25%] md:-right-[15%]"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="134"
+                  height="133"
+                  viewBox="0 0 134 133"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_1_714)">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M68.0906 58.5472C66.0339 56.6125 64.0586 55.3942 62.4797 54.5542C47.3485 46.5811 34.0077 56.0833 25.1005 68.1044C22.7121 71.3239 20.1396 77.0671 20.1346 82.1061C20.1296 85.647 21.3635 88.8428 24.6369 90.721C28.1978 92.7817 32.8521 92.3688 37.5333 90.6704C44.3057 88.2194 51.1425 83.1075 54.5854 79.5851C58.5554 75.521 64.002 68.5921 68.4245 61.15C70.4786 63.4115 72.5535 66.4609 74.3131 70.6596C75.1019 72.5229 75.5122 74.8415 75.6102 77.343C71.829 77.8239 67.974 79.0739 64.2166 81.1553C61.0605 82.9094 55.1265 87.8349 51.9878 92.9662C49.7503 96.6309 48.96 100.401 51.1246 103.342C53.8181 106.991 57.4287 107.369 61.0349 106.076C66.1136 104.257 71.1668 98.9948 73.1996 95.5366C75.5625 91.5118 77.1542 84.8499 77.2002 78.7957C90.0623 77.8433 101.742 86.1989 104.649 100.46C104.74 100.883 105.161 101.161 105.589 101.083C106.022 100.991 106.303 100.562 106.212 100.139C103.134 85.0511 90.7853 76.1868 77.1738 77.1787C77.0631 74.5165 76.6259 72.032 75.7847 70.0404C73.8433 65.4166 71.5362 62.1111 69.2652 59.7082C70.0699 58.3 70.8331 56.8766 71.5405 55.4486C74.7208 49.037 76.6938 42.6543 76.0432 37.7512C74.5412 26.4206 65.6626 20.1925 55.3987 18.5012C45.2322 16.8298 33.7415 19.6235 26.9207 26.177C26.603 26.4827 26.5913 26.9934 26.8976 27.3078C27.2041 27.6222 27.7089 27.6343 28.0265 27.3286C34.5171 21.0918 45.4682 18.4763 55.1384 20.0764C64.7113 21.6567 73.0589 27.3949 74.4625 37.9562C75.0741 42.6267 73.1321 48.6461 70.1102 54.7407C69.4809 56.0099 68.8053 57.2779 68.0906 58.5472ZM75.6352 78.9597C72.0998 79.4364 68.5008 80.6078 64.9878 82.5597C61.9834 84.2285 56.3422 88.9016 53.3475 93.8045C51.491 96.8431 50.6103 99.956 52.4109 102.39C54.6021 105.373 57.5609 105.623 60.4988 104.569C65.2286 102.889 69.9287 97.9511 71.8248 94.7241C74.0468 90.9446 75.5722 84.6642 75.6352 78.9597ZM67.2715 59.9658C65.2438 58.0104 63.2873 56.7989 61.7348 55.9685C47.3893 48.4062 34.8267 57.661 26.3828 69.0548C24.1569 72.0526 21.7383 77.3993 21.7301 82.1094C21.7297 85.0588 22.6987 87.7681 25.4337 89.341C28.6239 91.1888 32.794 90.6934 36.9868 89.1762C43.5227 86.8108 50.1236 81.8627 53.4448 78.4676C57.415 74.4036 62.882 67.4354 67.2715 59.9658Z"
+                      fill="#00FF84"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M105.208 99.5985C104.594 99.0631 102.822 97.5287 102.548 97.3041C101.777 96.6799 101.302 96.4758 100.796 96.3228C100.387 96.2054 99.9479 96.1391 99.2133 95.8249C98.8099 95.6469 98.3381 95.8497 98.1669 96.2556C97.9958 96.6615 98.1901 97.1224 98.5935 97.3005C99.2629 97.5753 99.7093 97.6909 100.102 97.787C100.552 97.9042 100.896 98.0138 101.544 98.5459C101.861 98.8019 103.472 100.418 104.351 101.004C104.809 101.311 105.212 101.379 105.412 101.343C105.699 101.291 106.013 101.125 106.306 100.794C106.681 100.369 107.095 99.5833 107.579 98.7136C108.031 97.8951 108.561 96.9799 109.238 96.2589C109.812 95.6562 110.49 95.2005 111.353 95.1712C111.792 95.1595 112.138 94.8015 112.127 94.3605C112.116 93.9195 111.749 93.5676 111.309 93.5792C110.011 93.6059 108.948 94.249 108.079 95.1657C107.31 95.9783 106.698 97.0041 106.183 97.9401C105.872 98.4981 105.598 99.0228 105.345 99.4144C105.305 99.4778 105.256 99.5381 105.208 99.5985Z"
+                      fill="#00FF84"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_714">
+                      <rect
+                        width="103.745"
+                        height="103.745"
+                        fill="white"
+                        transform="translate(0.878662 97.4883) rotate(-70)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+            <!-- text - end -->
+
+            <!-- Team Members Grid -->
+            <div
+              class="relative flex flex-col gap-6 md:flex-row md:flex-wrap md:justify-center lg:gap-8"
+            >
+              <!-----Image-Background-element------->
+              <div
+                class="absolute -top-[20%] -right-[1%] z-[-1] hidden md:block"
+              >
+                <img src="./src/images/team/element.svg" alt="" />
+              </div>
+
+              <!-- Team-1 Start -->
+              <div
+                class="flex h-[20rem] w-full cursor-pointer flex-col items-center rounded-lg bg-white p-6 shadow-xl transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl md:w-[17rem] lg:p-6"
+              >
+                <!-- Profile Image -->
+                <div
+                  class="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-28 md:w-28"
+                >
+                  <img
+                    src="https://2nd-assingment-tailwind.vercel.app/assets/ekta-D9nis2k2.png"
+                    loading="lazy"
+                    alt="Team Member 1"
+                    class="h-full w-full object-cover object-center"
+                  />
+                </div>
+
+                <!-- Name -->
+                <div class="text-center font-bold text-black md:text-xl">
+                  Team Member 1
+                </div>
+
+                <!-- Role -->
+                <p
+                  class="mb-3 text-center text-sm text-black/40 md:mb-4 md:text-base"
+                >
+                  Role Title
+                </p>
+
+                <!-- Social Icons -->
+                <div class="flex justify-center">
+                  <div class="flex gap-4">
+                    <a
+                      href="#"
+                      class="flex size-[1.875rem] items-center justify-center rounded-full bg-green-400/10 p-[7px] transition-all duration-300 hover:bg-green-500 hover:text-white"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1rem"
+                        height="1rem"
+                        viewBox="0 0 17 18"
+                        fill="none"
+                        class="fill-active"
+                      >
+                        <path
+                          d="M6.31039 8.20893L9.27561 11.3563C9.59708 11.6976 10.1793 11.7463 10.828 11.4247C12.4787 10.7363 13.0279 10.5685 13.3415 10.9013L16.75 14.5193C17.1529 14.9469 17.0454 15.6593 16.5949 16.1375C14.2553 18.6208 10.4527 18.6208 8.11316 16.1375L1.74586 9.37902C-0.581954 6.90818 -0.581954 2.91081 1.74586 0.43997C2.20593 -0.0483612 2.91244 -0.168515 3.33054 0.275266L6.73907 3.89323C7.03451 4.20682 6.8761 4.7909 6.23107 6.53118C5.93122 7.21049 5.97926 7.85745 6.31039 8.20893Z"
+                          fill="#00FF84"
+                        />
+                      </svg>
+                    </a>
+                    <a
+                      href="#"
+                      class="flex size-[1.875rem] items-center justify-center rounded-full bg-green-400/10 p-[7px] transition-all duration-300 hover:bg-green-500 hover:text-white"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="13"
+                        viewBox="0 0 16 13"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M15.9376 3.02313V10.0782C15.9376 11.528 14.7623 12.7032 13.3126 12.7032H2.81256C1.36281 12.7032 0.187561 11.528 0.187561 10.0782V3.02313C0.187561 2.65694 0.367144 2.31403 0.668258 2.10448L2.5853 0.770358C2.7553 0.652055 2.989 0.693959 3.10731 0.863952C3.22561 1.03395 3.18371 1.26766 3.01371 1.38596L1.09667 2.72008C0.998406 2.78846 0.939483 2.89905 0.937607 3.0173C1.05489 2.97586 1.18109 2.9533 1.31256 2.9533C1.51319 2.9533 1.71016 3.00695 1.88307 3.1087L8.06256 6.74467L14.242 3.1087C14.5399 2.93346 14.8853 2.91095 15.1875 3.0176C15.1857 2.89924 15.1268 2.78852 15.0285 2.72008L13.1663 1.42415C12.9963 1.30585 12.9544 1.07214 13.0727 0.902146C13.191 0.732153 13.4247 0.69025 13.5947 0.808552L15.4569 2.10448C15.758 2.31403 15.9376 2.65694 15.9376 3.02313Z"
+                          fill="#01FF85"
+                        />
+                      </svg>
+                    </a>
+                    <a
+                      href="#"
+                      class="flex size-[1.875rem] items-center justify-center rounded-full bg-green-400/10 p-[7px] transition-all duration-300 hover:bg-green-500 hover:text-white"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="17"
+                        height="17"
+                        viewBox="0 0 17 17"
+                        fill="none"
+                      >
+                        <g clip-path="url(#clip0_1_644)">
+                          <path
+                            d="M12.6679 12.4484H10.8913V9.66375C10.8913 8.99975 10.8779 8.14508 9.96459 8.14508C9.03859 8.14508 8.89725 8.86775 8.89725 9.61508V12.4484H7.11992V6.72241H8.82659V7.50241H8.84992C9.08859 7.05308 9.66859 6.57775 10.5353 6.57775C12.3353 6.57775 12.6686 7.76308 12.6686 9.30508V12.4484H12.6679ZM5.11325 5.93908C4.97762 5.93925 4.84329 5.91266 4.71796 5.86082C4.59263 5.80897 4.47877 5.73291 4.38289 5.63697C4.28702 5.54103 4.21102 5.42712 4.15926 5.30175C4.1075 5.17639 4.08099 5.04204 4.08125 4.90641C4.08139 4.7023 4.14204 4.50281 4.25555 4.33318C4.36906 4.16354 4.53032 4.03137 4.71894 3.95338C4.90757 3.87539 5.11508 3.85509 5.31524 3.89504C5.5154 3.93499 5.69923 4.0334 5.84346 4.17782C5.98769 4.32224 6.08586 4.50619 6.12555 4.7064C6.16525 4.90661 6.14467 5.1141 6.06644 5.30262C5.98821 5.49115 5.85583 5.65224 5.68605 5.76553C5.51626 5.87881 5.3167 5.93921 5.11259 5.93908H5.11325ZM6.00392 12.4484H4.22192V6.72241H6.00459V12.4484H6.00392ZM13.5579 2.22241H3.33059C2.83992 2.22241 2.44459 2.60908 2.44459 3.08708V13.3577C2.44459 13.8357 2.84059 14.2224 3.32992 14.2224H13.5553C14.0446 14.2224 14.4446 13.8357 14.4446 13.3577V3.08708C14.4446 2.60908 14.0446 2.22241 13.5553 2.22241H13.5573H13.5579Z"
+                            fill="#00FF84"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_1_644">
+                            <rect
+                              x="0.444588"
+                              y="0.222168"
+                              width="16"
+                              height="16"
+                              fill="white"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- Team-1 end -->
+
+              <!-- Team-2 Start -->
+              <div
+                class="flex h-[20rem] w-full cursor-pointer flex-col items-center rounded-lg bg-white p-6 shadow-xl transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl md:w-[17rem] lg:p-6"
+              >
+                <!-- Profile Image -->
+                <div
+                  class="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-28 md:w-28"
+                >
+                  <img
+                    src="https://2nd-assingment-tailwind.vercel.app/assets/toby-UnILy0TQ.png"
+                    loading="lazy"
+                    alt="Team Member 2"
+                    class="h-full w-full object-cover object-center"
+                  />
+                </div>
+
+                <!-- Name -->
+                <div class="text-center font-bold text-black md:text-xl">
+                  Toby Potter-Drake
+                </div>
+
+                <!-- Role -->
+                <p
+                  class="mb-3 text-center text-sm text-black/40 md:mb-4 md:text-base"
+                >
+                  Product Manager Associate
+                </p>
+
+                <!-- Social Icons -->
+                <div class="flex justify-center">
+                  <div class="flex gap-4">
+                    <a
+                      href="#"
+                      class="flex size-[1.875rem] items-center justify-center rounded-full bg-green-400/10 p-[7px] transition-all duration-300 hover:bg-green-500 hover:text-white"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1rem"
+                        height="1rem"
+                        viewBox="0 0 17 18"
+                        fill="none"
+                        class="fill-active"
+                      >
+                        <path
+                          d="M6.31039 8.20893L9.27561 11.3563C9.59708 11.6976 10.1793 11.7463 10.828 11.4247C12.4787 10.7363 13.0279 10.5685 13.3415 10.9013L16.75 14.5193C17.1529 14.9469 17.0454 15.6593 16.5949 16.1375C14.2553 18.6208 10.4527 18.6208 8.11316 16.1375L1.74586 9.37902C-0.581954 6.90818 -0.581954 2.91081 1.74586 0.43997C2.20593 -0.0483612 2.91244 -0.168515 3.33054 0.275266L6.73907 3.89323C7.03451 4.20682 6.8761 4.7909 6.23107 6.53118C5.93122 7.21049 5.97926 7.85745 6.31039 8.20893Z"
+                          fill="#00FF84"
+                        />
+                      </svg>
+                    </a>
+                    <a
+                      href="#"
+                      class="flex size-[1.875rem] items-center justify-center rounded-full bg-green-400/10 p-[7px] transition-all duration-300 hover:bg-green-500 hover:text-white"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="13"
+                        viewBox="0 0 16 13"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M15.9376 3.02313V10.0782C15.9376 11.528 14.7623 12.7032 13.3126 12.7032H2.81256C1.36281 12.7032 0.187561 11.528 0.187561 10.0782V3.02313C0.187561 2.65694 0.367144 2.31403 0.668258 2.10448L2.5853 0.770358C2.7553 0.652055 2.989 0.693959 3.10731 0.863952C3.22561 1.03395 3.18371 1.26766 3.01371 1.38596L1.09667 2.72008C0.998406 2.78846 0.939483 2.89905 0.937607 3.0173C1.05489 2.97586 1.18109 2.9533 1.31256 2.9533C1.51319 2.9533 1.71016 3.00695 1.88307 3.1087L8.06256 6.74467L14.242 3.1087C14.5399 2.93346 14.8853 2.91095 15.1875 3.0176C15.1857 2.89924 15.1268 2.78852 15.0285 2.72008L13.1663 1.42415C12.9963 1.30585 12.9544 1.07214 13.0727 0.902146C13.191 0.732153 13.4247 0.69025 13.5947 0.808552L15.4569 2.10448C15.758 2.31403 15.9376 2.65694 15.9376 3.02313Z"
+                          fill="#01FF85"
+                        />
+                      </svg>
+                    </a>
+                    <a
+                      href="#"
+                      class="flex size-[1.875rem] items-center justify-center rounded-full bg-green-400/10 p-[7px] transition-all duration-300 hover:bg-green-500 hover:text-white"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="17"
+                        height="17"
+                        viewBox="0 0 17 17"
+                        fill="none"
+                      >
+                        <g clip-path="url(#clip0_1_644)">
+                          <path
+                            d="M12.6679 12.4484H10.8913V9.66375C10.8913 8.99975 10.8779 8.14508 9.96459 8.14508C9.03859 8.14508 8.89725 8.86775 8.89725 9.61508V12.4484H7.11992V6.72241H8.82659V7.50241H8.84992C9.08859 7.05308 9.66859 6.57775 10.5353 6.57775C12.3353 6.57775 12.6686 7.76308 12.6686 9.30508V12.4484H12.6679ZM5.11325 5.93908C4.97762 5.93925 4.84329 5.91266 4.71796 5.86082C4.59263 5.80897 4.47877 5.73291 4.38289 5.63697C4.28702 5.54103 4.21102 5.42712 4.15926 5.30175C4.1075 5.17639 4.08099 5.04204 4.08125 4.90641C4.08139 4.7023 4.14204 4.50281 4.25555 4.33318C4.36906 4.16354 4.53032 4.03137 4.71894 3.95338C4.90757 3.87539 5.11508 3.85509 5.31524 3.89504C5.5154 3.93499 5.69923 4.0334 5.84346 4.17782C5.98769 4.32224 6.08586 4.50619 6.12555 4.7064C6.16525 4.90661 6.14467 5.1141 6.06644 5.30262C5.98821 5.49115 5.85583 5.65224 5.68605 5.76553C5.51626 5.87881 5.3167 5.93921 5.11259 5.93908H5.11325ZM6.00392 12.4484H4.22192V6.72241H6.00459V12.4484H6.00392ZM13.5579 2.22241H3.33059C2.83992 2.22241 2.44459 2.60908 2.44459 3.08708V13.3577C2.44459 13.8357 2.84059 14.2224 3.32992 14.2224H13.5553C14.0446 14.2224 14.4446 13.8357 14.4446 13.3577V3.08708C14.4446 2.60908 14.0446 2.22241 13.5553 2.22241H13.5573H13.5579Z"
+                            fill="#00FF84"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_1_644">
+                            <rect
+                              x="0.444588"
+                              y="0.222168"
+                              width="16"
+                              height="16"
+                              fill="white"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- Team-2 end -->
+
+              <!-- Team-3 Start -->
+              <div
+                class="flex h-[20rem] w-full cursor-pointer flex-col items-center rounded-lg bg-white p-6 shadow-xl transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl md:w-[17rem] lg:p-6"
+              >
+                <!-- Profile Image -->
+                <div
+                  class="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-28 md:w-28"
+                >
+                  <img
+                    src="https://2nd-assingment-tailwind.vercel.app/assets/ross-DXbKeYJT.png"
+                    loading="lazy"
+                    alt="Team Member 3"
+                    class="h-full w-full object-cover object-center"
+                  />
+                </div>
+
+                <!-- Name -->
+                <div class="text-center font-bold text-black md:text-xl">
+                  Ross Davies
+                </div>
+
+                <!-- Role -->
+                <p
+                  class="mb-3 text-center text-sm text-black/40 md:mb-4 md:text-base"
+                >
+                  Corporate Growth Associate
+                </p>
+
+                <!-- Social Icons -->
+                <div class="flex justify-center">
+                  <div class="flex gap-4">
+                    <a
+                      href="#"
+                      class="flex size-[1.875rem] items-center justify-center rounded-full bg-green-400/10 p-[7px] transition-all duration-300 hover:bg-green-500 hover:text-white"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1rem"
+                        height="1rem"
+                        viewBox="0 0 17 18"
+                        fill="none"
+                        class="fill-active"
+                      >
+                        <path
+                          d="M6.31039 8.20893L9.27561 11.3563C9.59708 11.6976 10.1793 11.7463 10.828 11.4247C12.4787 10.7363 13.0279 10.5685 13.3415 10.9013L16.75 14.5193C17.1529 14.9469 17.0454 15.6593 16.5949 16.1375C14.2553 18.6208 10.4527 18.6208 8.11316 16.1375L1.74586 9.37902C-0.581954 6.90818 -0.581954 2.91081 1.74586 0.43997C2.20593 -0.0483612 2.91244 -0.168515 3.33054 0.275266L6.73907 3.89323C7.03451 4.20682 6.8761 4.7909 6.23107 6.53118C5.93122 7.21049 5.97926 7.85745 6.31039 8.20893Z"
+                          fill="#00FF84"
+                        />
+                      </svg>
+                    </a>
+                    <a
+                      href="#"
+                      class="flex size-[1.875rem] items-center justify-center rounded-full bg-green-400/10 p-[7px] transition-all duration-300 hover:bg-green-500 hover:text-white"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="13"
+                        viewBox="0 0 16 13"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M15.9376 3.02313V10.0782C15.9376 11.528 14.7623 12.7032 13.3126 12.7032H2.81256C1.36281 12.7032 0.187561 11.528 0.187561 10.0782V3.02313C0.187561 2.65694 0.367144 2.31403 0.668258 2.10448L2.5853 0.770358C2.7553 0.652055 2.989 0.693959 3.10731 0.863952C3.22561 1.03395 3.18371 1.26766 3.01371 1.38596L1.09667 2.72008C0.998406 2.78846 0.939483 2.89905 0.937607 3.0173C1.05489 2.97586 1.18109 2.9533 1.31256 2.9533C1.51319 2.9533 1.71016 3.00695 1.88307 3.1087L8.06256 6.74467L14.242 3.1087C14.5399 2.93346 14.8853 2.91095 15.1875 3.0176C15.1857 2.89924 15.1268 2.78852 15.0285 2.72008L13.1663 1.42415C12.9963 1.30585 12.9544 1.07214 13.0727 0.902146C13.191 0.732153 13.4247 0.69025 13.5947 0.808552L15.4569 2.10448C15.758 2.31403 15.9376 2.65694 15.9376 3.02313Z"
+                          fill="#01FF85"
+                        />
+                      </svg>
+                    </a>
+                    <a
+                      href="#"
+                      class="flex size-[1.875rem] items-center justify-center rounded-full bg-green-400/10 p-[7px] transition-all duration-300 hover:bg-green-500 hover:text-white"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="17"
+                        height="17"
+                        viewBox="0 0 17 17"
+                        fill="none"
+                      >
+                        <g clip-path="url(#clip0_1_644)">
+                          <path
+                            d="M12.6679 12.4484H10.8913V9.66375C10.8913 8.99975 10.8779 8.14508 9.96459 8.14508C9.03859 8.14508 8.89725 8.86775 8.89725 9.61508V12.4484H7.11992V6.72241H8.82659V7.50241H8.84992C9.08859 7.05308 9.66859 6.57775 10.5353 6.57775C12.3353 6.57775 12.6686 7.76308 12.6686 9.30508V12.4484H12.6679ZM5.11325 5.93908C4.97762 5.93925 4.84329 5.91266 4.71796 5.86082C4.59263 5.80897 4.47877 5.73291 4.38289 5.63697C4.28702 5.54103 4.21102 5.42712 4.15926 5.30175C4.1075 5.17639 4.08099 5.04204 4.08125 4.90641C4.08139 4.7023 4.14204 4.50281 4.25555 4.33318C4.36906 4.16354 4.53032 4.03137 4.71894 3.95338C4.90757 3.87539 5.11508 3.85509 5.31524 3.89504C5.5154 3.93499 5.69923 4.0334 5.84346 4.17782C5.98769 4.32224 6.08586 4.50619 6.12555 4.7064C6.16525 4.90661 6.14467 5.1141 6.06644 5.30262C5.98821 5.49115 5.85583 5.65224 5.68605 5.76553C5.51626 5.87881 5.3167 5.93921 5.11259 5.93908H5.11325ZM6.00392 12.4484H4.22192V6.72241H6.00459V12.4484H6.00392ZM13.5579 2.22241H3.33059C2.83992 2.22241 2.44459 2.60908 2.44459 3.08708V13.3577C2.44459 13.8357 2.84059 14.2224 3.32992 14.2224H13.5553C14.0446 14.2224 14.4446 13.8357 14.4446 13.3577V3.08708C14.4446 2.60908 14.0446 2.22241 13.5553 2.22241H13.5573H13.5579Z"
+                            fill="#00FF84"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_1_644">
+                            <rect
+                              x="0.444588"
+                              y="0.222168"
+                              width="16"
+                              height="16"
+                              fill="white"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- Team-3 end -->
+
+              <!-- Team-4 Start -->
+              <div
+                class="flex h-[20rem] w-full cursor-pointer flex-col items-center rounded-lg bg-white p-6 shadow-xl transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl md:w-[17rem] lg:p-6"
+              >
+                <!-- Profile Image -->
+                <div
+                  class="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-28 md:w-28"
+                >
+                  <img
+                    src="https://2nd-assingment-tailwind.vercel.app/assets/leo-D7JWvqmt.png"
+                    loading="lazy"
+                    alt="Team Member 4"
+                    class="h-full w-full object-cover object-center"
+                  />
+                </div>
+
+                <!-- Name -->
+                <div class="text-center font-bold text-black md:text-xl">
+                  Leo crozier
+                </div>
+
+                <!-- Role -->
+                <p
+                  class="mb-3 text-center text-sm text-black/40 md:mb-4 md:text-base"
+                >
+                  Software Developer
+                </p>
+
+                <!-- Social Icons -->
+                <div class="flex justify-center">
+                  <div class="flex gap-4">
+                    <a
+                      href="#"
+                      class="flex size-[1.875rem] items-center justify-center rounded-full bg-green-400/10 p-[7px] transition-all duration-300 hover:bg-green-500 hover:text-white"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1rem"
+                        height="1rem"
+                        viewBox="0 0 17 18"
+                        fill="none"
+                        class="fill-active"
+                      >
+                        <path
+                          d="M6.31039 8.20893L9.27561 11.3563C9.59708 11.6976 10.1793 11.7463 10.828 11.4247C12.4787 10.7363 13.0279 10.5685 13.3415 10.9013L16.75 14.5193C17.1529 14.9469 17.0454 15.6593 16.5949 16.1375C14.2553 18.6208 10.4527 18.6208 8.11316 16.1375L1.74586 9.37902C-0.581954 6.90818 -0.581954 2.91081 1.74586 0.43997C2.20593 -0.0483612 2.91244 -0.168515 3.33054 0.275266L6.73907 3.89323C7.03451 4.20682 6.8761 4.7909 6.23107 6.53118C5.93122 7.21049 5.97926 7.85745 6.31039 8.20893Z"
+                          fill="#00FF84"
+                        />
+                      </svg>
+                    </a>
+                    <a
+                      href="#"
+                      class="flex size-[1.875rem] items-center justify-center rounded-full bg-green-400/10 p-[7px] transition-all duration-300 hover:bg-green-500 hover:text-white"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="13"
+                        viewBox="0 0 16 13"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M15.9376 3.02313V10.0782C15.9376 11.528 14.7623 12.7032 13.3126 12.7032H2.81256C1.36281 12.7032 0.187561 11.528 0.187561 10.0782V3.02313C0.187561 2.65694 0.367144 2.31403 0.668258 2.10448L2.5853 0.770358C2.7553 0.652055 2.989 0.693959 3.10731 0.863952C3.22561 1.03395 3.18371 1.26766 3.01371 1.38596L1.09667 2.72008C0.998406 2.78846 0.939483 2.89905 0.937607 3.0173C1.05489 2.97586 1.18109 2.9533 1.31256 2.9533C1.51319 2.9533 1.71016 3.00695 1.88307 3.1087L8.06256 6.74467L14.242 3.1087C14.5399 2.93346 14.8853 2.91095 15.1875 3.0176C15.1857 2.89924 15.1268 2.78852 15.0285 2.72008L13.1663 1.42415C12.9963 1.30585 12.9544 1.07214 13.0727 0.902146C13.191 0.732153 13.4247 0.69025 13.5947 0.808552L15.4569 2.10448C15.758 2.31403 15.9376 2.65694 15.9376 3.02313Z"
+                          fill="#01FF85"
+                        />
+                      </svg>
+                    </a>
+                    <a
+                      href="#"
+                      class="flex size-[1.875rem] items-center justify-center rounded-full bg-green-400/10 p-[7px] transition-all duration-300 hover:bg-green-500 hover:text-white"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="17"
+                        height="17"
+                        viewBox="0 0 17 17"
+                        fill="none"
+                      >
+                        <g clip-path="url(#clip0_1_644)">
+                          <path
+                            d="M12.6679 12.4484H10.8913V9.66375C10.8913 8.99975 10.8779 8.14508 9.96459 8.14508C9.03859 8.14508 8.89725 8.86775 8.89725 9.61508V12.4484H7.11992V6.72241H8.82659V7.50241H8.84992C9.08859 7.05308 9.66859 6.57775 10.5353 6.57775C12.3353 6.57775 12.6686 7.76308 12.6686 9.30508V12.4484H12.6679ZM5.11325 5.93908C4.97762 5.93925 4.84329 5.91266 4.71796 5.86082C4.59263 5.80897 4.47877 5.73291 4.38289 5.63697C4.28702 5.54103 4.21102 5.42712 4.15926 5.30175C4.1075 5.17639 4.08099 5.04204 4.08125 4.90641C4.08139 4.7023 4.14204 4.50281 4.25555 4.33318C4.36906 4.16354 4.53032 4.03137 4.71894 3.95338C4.90757 3.87539 5.11508 3.85509 5.31524 3.89504C5.5154 3.93499 5.69923 4.0334 5.84346 4.17782C5.98769 4.32224 6.08586 4.50619 6.12555 4.7064C6.16525 4.90661 6.14467 5.1141 6.06644 5.30262C5.98821 5.49115 5.85583 5.65224 5.68605 5.76553C5.51626 5.87881 5.3167 5.93921 5.11259 5.93908H5.11325ZM6.00392 12.4484H4.22192V6.72241H6.00459V12.4484H6.00392ZM13.5579 2.22241H3.33059C2.83992 2.22241 2.44459 2.60908 2.44459 3.08708V13.3577C2.44459 13.8357 2.84059 14.2224 3.32992 14.2224H13.5553C14.0446 14.2224 14.4446 13.8357 14.4446 13.3577V3.08708C14.4446 2.60908 14.0446 2.22241 13.5553 2.22241H13.5573H13.5579Z"
+                            fill="#00FF84"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_1_644">
+                            <rect
+                              x="0.444588"
+                              y="0.222168"
+                              width="16"
+                              height="16"
+                              fill="white"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- Team-4 end -->
+
+              <!-----Image-Background-element------->
+              <div
+                class="absolute -bottom-[20%] -left-[1%] z-[-1] hidden md:block"
+              >
+                <img src="./src/images/team/element.svg" alt="" />
+              </div>
             </div>
           </div>
         </div>
