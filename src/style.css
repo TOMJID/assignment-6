@@ -31,3 +31,16 @@ html {
   transition: all 0.3s ease-out !important;
   -webkit-transition: all 0.3s ease-out !important;
 }
+
+/* custom scroll bar */
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-main);
+}
