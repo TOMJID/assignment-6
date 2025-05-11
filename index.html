@@ -160,7 +160,7 @@
     <main>
       <section
         id="hero"
-        class="top-0 -z-1 h-screen w-full bg-[url('/hero.png')] bg-cover bg-center"
+        class="top-0 -z-1 h-screen w-full bg-[url('public/hero.png')] bg-cover bg-center"
       >
         <div
           class="container mx-auto my-auto flex h-150 flex-col items-center justify-center text-center text-white"
@@ -208,10 +208,10 @@
               class="mx-4 flex max-w-74 flex-col items-center justify-center justify-self-center rounded-lg bg-slate-800 px-6 py-12 text-white transition-all ease-in hover:scale-105 hover:shadow-2xl"
             >
               <div
-                class="border-primary-red mb-4 flex h-12 w-12 items-center justify-center rounded-full border-2"
+                class="border-primary-red mb-4 flex h-12 w-12 items-center justify-center rounded-full border-2 bg-white"
               >
                 <svg
-                  class="h-6 w-6 text-white"
+                  class="text-main h-6 w-6"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -236,10 +236,10 @@
               class="mx-4 flex max-w-74 flex-col items-center justify-center justify-self-center rounded-lg bg-slate-800 px-6 py-12 text-white transition-all ease-in hover:scale-105 hover:shadow-2xl"
             >
               <div
-                class="border-primary-red mb-4 flex h-12 w-12 items-center justify-center rounded-full border-2"
+                class="border-primary-red mb-4 flex h-12 w-12 items-center justify-center rounded-full border-2 bg-white"
               >
                 <svg
-                  class="h-6 w-6 text-white"
+                  class="text-main h-6 w-6"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -264,10 +264,10 @@
               class="mx-4 flex max-w-74 flex-col items-center justify-center justify-self-center rounded-lg bg-slate-800 px-6 py-12 text-white transition-all ease-in hover:scale-105 hover:shadow-2xl"
             >
               <div
-                class="border-primary-red mb-4 flex h-12 w-12 items-center justify-center rounded-full border-2"
+                class="border-primary-red mb-4 flex h-12 w-12 items-center justify-center rounded-full border-2 bg-white"
               >
                 <svg
-                  class="h-6 w-6 text-white"
+                  class="text-main h-6 w-6"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -284,9 +284,464 @@
               <h3 class="mb-2 text-xl font-bold">businesses</h3>
               <p class="text-sm text-gray-400">
                 We help students find their way in a fast-evolving world by
-                creating a personalised learning journey guaranteed to help
+                creating a personalized learning journey guaranteed to help
                 stand out in a crowded job market.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =================== About-Us Section Start =================== -->
+
+      <section class="mx-auto max-w-360 bg-neutral-100 px-4 md:px-8">
+        <div class="relative">
+          <!-- Vertical line and green dots -->
+          <div
+            class="absolute top-35 left-1/2 z-[2] hidden h-full w-0.5 -translate-x-1/2 transform bg-zinc-400/50 md:block"
+          >
+            <!-- Top dot -->
+            <div
+              class="absolute top-0 left-1/2 h-5 w-5 -translate-x-1/2 transform rounded-full bg-green-400"
+            ></div>
+            <!-- Middle dot -->
+            <div
+              class="absolute top-1/2 left-1/2 h-3 w-3 -translate-x-1/2 -translate-y-1/2 transform rounded-full bg-green-400"
+            ></div>
+            <!-- Bottom dot -->
+            <div
+              class="absolute bottom-0 left-1/2 h-3 w-3 -translate-x-1/2 transform rounded-full bg-green-400"
+            ></div>
+          </div>
+
+          <div id="about" class="relative z-[1] pb-[167px] md:pt-0">
+            <!-- Item 1: Mission -->
+            <div
+              class="relative flex flex-col gap-10 pt-[167px] md:h-[700px] md:flex-row md:gap-8"
+            >
+              <!-- Left content -->
+              <div class="flex flex-col items-start rounded-lg md:w-1/2">
+                <h4
+                  class="mb-3 text-xs font-medium tracking-widest text-[#FF6B6B] uppercase"
+                >
+                  About us
+                </h4>
+                <h2
+                  class="mb-10 text-[2rem] leading-tight font-semibold text-[#1E1E1E] md:text-[2.5rem]"
+                >
+                  Our Mission
+                </h2>
+                <p
+                  class="mb-24 max-w-md text-base leading-relaxed text-gray-600"
+                >
+                  To create a personalised pathway for continuous learning and
+                  transferrable skills development.
+                </p>
+
+                <!-- Button -->
+                <button
+                  class="group relative inline-flex h-12 cursor-pointer items-center justify-center rounded-full border-2 border-[#FF3B30] bg-white px-6 font-medium text-[#FF3B30] transition-all duration-300 hover:bg-[#FF3B30] hover:text-white"
+                >
+                  <span
+                    class="transition-colors duration-300 group-hover:text-white"
+                    >Find out more</span
+                  >
+                  <div
+                    class="ml-2 transform transition-transform duration-300 group-hover:translate-x-1"
+                  >
+                    <svg
+                      width="15"
+                      height="15"
+                      viewBox="0 0 15 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                    >
+                      <path
+                        d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                        fill="currentColor"
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </div>
+                </button>
+              </div>
+
+              <!-- Right floating images (Mission) -->
+              <div
+                class="mission-items relative mt-8 min-h-[33.125rem] md:mt-0 md:w-1/2"
+              >
+                <!-- image-2 -->
+                <div
+                  class="absolute top-[30%] left-[20%] h-[40px] w-[40px] md:h-[80px] md:w-[80px]"
+                >
+                  <span
+                    class="absolute top-[-8px] right-[-8px] z-0 h-6 w-6 rounded-full bg-[#FDC500] md:h-8 md:w-8"
+                  ></span>
+                  <img
+                    src="/m2.jpg"
+                    alt=""
+                    class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-lg transition-all hover:animate-bounce"
+                  />
+                </div>
+
+                <!-- image-1-->
+                <div
+                  class="absolute top-[8%] right-[20%] h-[100px] w-[100px] md:h-[120px] md:w-[120px]"
+                >
+                  <span
+                    class="absolute right-[-8px] bottom-[-8px] z-0 h-6 w-6 rounded-full bg-[#4726FF] md:h-8 md:w-8"
+                  ></span>
+                  <img
+                    src="/m1.jpg"
+                    alt=""
+                    class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-xl transition-all hover:animate-bounce"
+                  />
+                </div>
+
+                <!-- middle image in center -->
+                <div
+                  class="absolute bottom-1/2 left-1/2 hidden h-[70px] w-[70px] translate-x-[-50%] translate-y-[50%] sm:block md:h-[80px] md:w-[80px]"
+                >
+                  <img
+                    src="/middle.jpg"
+                    alt=""
+                    class="h-full w-full rounded-[1rem] object-cover shadow-md transition-all hover:animate-bounce"
+                  />
+                </div>
+
+                <!-- image-3 -->
+                <div
+                  class="absolute bottom-[20%] left-[65%] h-[90px] w-[90px] md:h-[110px] md:w-[110px]"
+                >
+                  <img
+                    src="/m3.jpg"
+                    alt=""
+                    class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-lg transition-all hover:animate-bounce"
+                  />
+                </div>
+
+                <!-- image-4 -->
+                <div
+                  class="absolute right-[60%] bottom-[10%] h-[90px] w-[90px] md:h-[110px] md:w-[110px]"
+                >
+                  <img
+                    src="/combined-shape.png"
+                    alt=""
+                    class="absolute top-[-25px] right-[-25px] z-[-99] h-full w-full rounded-[1rem] transition-all hover:animate-bounce"
+                  />
+                  <img
+                    src="/m4.jpg"
+                    alt=""
+                    class="h-full w-full rounded-[1rem] object-cover shadow-md transition-all hover:animate-bounce"
+                  />
+                </div>
+              </div>
+
+              <!-- Background decoration -->
+              <img
+                src="/Path.jpg"
+                alt=""
+                class="absolute right-0 bottom-0 left-0 z-[-2] mx-auto"
+              />
+              <img
+                src="/Oval.jpg"
+                alt=""
+                class="absolute right-0 bottom-0 left-0 z-[-2] mx-auto"
+              />
+            </div>
+
+            <!-- Item 2: Vision -->
+            <div
+              class="relative flex flex-col-reverse gap-6 pt-[167px] md:h-[680px] md:flex-row md:gap-8"
+            >
+              <!-- Left floating images (Vision) -->
+
+              <!-- image-2-->
+              <div
+                class="mission-items relative mt-8 min-h-[33.125rem] md:mt-0 md:w-1/2"
+              >
+                <div
+                  class="absolute top-[25%] right-[65%] h-[90px] w-[90px] md:h-[80px] md:w-[80px]"
+                >
+                  <span
+                    class="absolute top-[-8px] left-[70%] z-0 h-6 w-6 rounded-full bg-[#FDC500] md:h-8 md:w-8"
+                  ></span>
+                  <img
+                    src="/v2.jpg"
+                    alt=""
+                    class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-lg transition-all hover:animate-bounce"
+                  />
+                </div>
+
+                <!-- image-1-->
+                <div
+                  class="absolute top-[5%] left-[60%] h-[100px] w-[100px] md:h-[120px] md:w-[120px]"
+                >
+                  <span
+                    class="absolute bottom-[-8px] left-[80%] z-0 h-6 w-6 rounded-full bg-[#4726FF] md:h-8 md:w-8"
+                  ></span>
+                  <img
+                    src="/v1.jpg"
+                    alt=""
+                    class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-xl transition-all hover:animate-bounce"
+                  />
+                </div>
+
+                <!-- middle image in center -->
+                <div
+                  class="absolute bottom-1/2 left-1/2 hidden h-[70px] w-[70px] translate-x-[-50%] translate-y-[50%] sm:block md:h-[60px] md:w-[60px]"
+                >
+                  <img
+                    src="/v-middle.jpg"
+                    alt=""
+                    class="h-full w-full rounded-[1rem] object-cover shadow-md transition-all hover:animate-bounce"
+                  />
+                </div>
+
+                <!-- image-3-->
+                <div
+                  class="absolute right-[20%] bottom-[35%] h-[90px] w-[90px] md:h-[80px] md:w-[80px]"
+                >
+                  <img
+                    src="/v3.jpg"
+                    alt=""
+                    class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-lg transition-all hover:animate-bounce"
+                  />
+                </div>
+
+                <!-- image-4-->
+                <div
+                  class="absolute bottom-[10%] left-[25%] h-[90px] w-[90px] md:h-[110px] md:w-[110px]"
+                >
+                  <img
+                    src="/combined-shape.png"
+                    alt=""
+                    class="absolute top-[-30px] left-[30px] z-[-1] h-full w-full rounded-[1rem]"
+                  />
+                  <img
+                    src="/v4.jpg"
+                    alt=""
+                    class="h-full w-full rounded-[1rem] object-cover shadow-md transition-all hover:animate-bounce"
+                  />
+                </div>
+              </div>
+
+              <!-- Right content -->
+              <div
+                class="flex flex-col items-start rounded-lg md:w-1/2 md:pl-12"
+              >
+                <h4
+                  class="mb-3 text-xs font-medium tracking-widest text-[#FF6B6B] uppercase"
+                >
+                  About us
+                </h4>
+                <h2
+                  class="mb-10 text-[2rem] leading-tight font-semibold text-[#1E1E1E] md:text-[2.5rem]"
+                >
+                  Our Vision
+                </h2>
+                <p
+                  class="mb-24 max-w-md text-base leading-relaxed text-gray-600"
+                >
+                  To have a globally recognised strategic bridge between
+                  education and the job market.
+                </p>
+
+                <!-- Button -->
+                <button
+                  class="group relative inline-flex h-12 cursor-pointer items-center justify-center rounded-full border-2 border-[#FF3B30] bg-white px-6 font-medium text-[#FF3B30] transition-all duration-300 hover:bg-[#FF3B30] hover:text-white"
+                >
+                  <span
+                    class="transition-colors duration-300 group-hover:text-white"
+                    >Contact Us</span
+                  >
+                  <div
+                    class="ml-2 transform transition-transform duration-300 group-hover:translate-x-1"
+                  >
+                    <svg
+                      width="15"
+                      height="15"
+                      viewBox="0 0 15 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                    >
+                      <path
+                        d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                        fill="currentColor"
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </div>
+                </button>
+              </div>
+
+              <!-- Background decoration -->
+              <img
+                src="/Oval.jpg"
+                alt=""
+                class="absolute inset-0 z-[-2] mx-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================== ABout-Us Section End =================== -->
+
+      <!-- =================== Feature-Section Start =================== -->
+      <section class="mx-auto max-w-360 bg-white px-4 md:px-8">
+        <div class="bg-white py-6 sm:py-8 lg:py-35">
+          <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+            <!-- text - start -->
+            <div class="mb-10 md:mb-16"></div>
+            <!-- text - end -->
+
+            <div class="grid gap-12 md:grid-cols-3">
+              <!-- feature-card-1 start-->
+              <div class="relative flex flex-col items-center">
+                <div
+                  class="mb-6 flex h-12 w-12 items-center justify-center text-indigo-500 sm:mb-4 md:h-14 md:w-14"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="45"
+                    height="42"
+                    viewBox="0 0 45 42"
+                    fill="none"
+                  >
+                    <path
+                      d="M32.5908 19.9071C32.5908 14.6571 28.095 10.3735 22.585 10.3735C17.075 10.3735 12.5792 14.6571 12.5792 19.9071C12.5792 20.6635 12.667 21.4198 12.8874 22.1744C13.1526 23.3918 13.6364 24.1481 14.2976 25.1981C14.4302 25.4508 14.6059 25.7018 14.7832 25.9954C15.0036 26.3318 15.1793 26.6681 15.3996 26.9618C16.2813 28.3481 16.8099 29.1454 16.8099 30.7844V34.7318C16.8099 35.7391 17.5589 36.5381 18.5731 36.7054C19.0139 38.8481 20.3363 40.1918 22.5851 40.1918C24.8339 40.1918 26.1993 38.8481 26.5971 36.7054C27.6113 36.5381 28.3603 35.6981 28.3603 34.7318V30.7844C28.3603 29.1471 28.8889 28.3071 29.7705 26.9618C29.9462 26.6681 30.1666 26.3318 30.3869 25.9954C30.5626 25.7018 30.7399 25.4491 30.8725 25.1981C31.5337 24.1481 32.0193 23.3918 32.2827 22.1744C32.5031 21.4197 32.591 20.6634 32.591 19.9071H32.5908ZM26.6399 31.7935H18.6178V30.8272C18.6178 30.6172 18.6178 30.4499 18.573 30.2809H26.6401C26.6401 30.4482 26.5954 30.6172 26.5954 30.8272L26.5971 31.7935H26.6399ZM26.2439 35.1125H18.9257C18.7053 35.1125 18.5727 34.9452 18.5727 34.7762V33.4735H26.5949V34.7762C26.6396 34.9435 26.464 35.1125 26.2436 35.1125H26.2439ZM22.5849 38.5562C22.0993 38.5562 20.8665 38.5562 20.3809 36.7925H24.8339C24.3483 38.5562 23.0706 38.5562 22.5851 38.5562H22.5849ZM30.5643 21.8397C30.3439 22.7634 29.9909 23.3934 29.3745 24.3597C29.1988 24.6124 29.0663 24.8634 28.8889 25.1571C28.6685 25.4934 28.4929 25.8297 28.3155 26.0807C27.7869 26.9207 27.3013 27.6771 26.9931 28.5581H18.2648C17.9565 27.6754 17.5157 26.9207 16.9423 26.0807C16.7667 25.7871 16.5463 25.4934 16.3689 25.1571C16.1933 24.8634 16.016 24.5697 15.8834 24.3597C15.2669 23.3524 14.9139 22.7634 14.6935 21.7971C14.5179 21.1671 14.4284 20.5371 14.4284 19.9071C14.4284 15.5807 18.1304 12.0535 22.6709 12.0535C27.2117 12.0535 30.9135 15.5808 30.9135 19.9071C30.8274 20.5371 30.7396 21.1671 30.564 21.8397H30.5643Z"
+                      fill="#00FF84"
+                    />
+                    <path
+                      d="M40.7456 19.0671H37.0866C36.601 19.0671 36.205 19.4445 36.205 19.9071C36.205 20.3698 36.601 20.7471 37.0866 20.7471H40.7456C41.2312 20.7471 41.6272 20.3698 41.6272 19.9071C41.6272 19.4461 41.2312 19.0671 40.7456 19.0671Z"
+                      fill="#00FF84"
+                    />
+                    <path
+                      d="M32.8112 11.0035C33.0316 11.0035 33.252 10.9199 33.4276 10.7509L36.0276 8.27355C36.3806 7.93722 36.3806 7.43355 36.0276 7.09722C35.6746 6.76089 35.146 6.76089 34.793 7.09722L32.193 9.57455C31.84 9.91087 31.84 10.4145 32.193 10.7509C32.3703 10.9199 32.5907 11.0035 32.8111 11.0035H32.8112Z"
+                      fill="#00FF84"
+                    />
+                    <path
+                      d="M22.585 6.93001C23.0706 6.93001 23.4666 6.55266 23.4666 6.09001V2.60367C23.4666 2.141 23.0706 1.76367 22.585 1.76367C22.0994 1.76367 21.7034 2.14102 21.7034 2.60367V6.09001C21.7034 6.55268 22.0994 6.93001 22.585 6.93001Z"
+                      fill="#00FF84"
+                    />
+                    <path
+                      d="M11.7404 10.7528C11.916 10.9202 12.1364 11.0055 12.3568 11.0055C12.5772 11.0055 12.7976 10.9218 12.9732 10.7528C13.3262 10.4165 13.3262 9.91283 12.9732 9.5765L10.3732 7.09917C10.0202 6.76284 9.49157 6.76284 9.13857 7.09917C8.78559 7.4355 8.78559 7.93917 9.13857 8.27551L11.7404 10.7528Z"
+                      fill="#00FF84"
+                    />
+                    <path
+                      d="M8.12622 19.0671H4.46721C3.98162 19.0671 3.5856 19.4445 3.5856 19.9071C3.5856 20.3698 3.98164 20.7471 4.46721 20.7471H8.12622C8.61181 20.7471 9.00783 20.3698 9.00783 19.9071C9.00783 19.4461 8.61179 19.0671 8.12622 19.0671Z"
+                      fill="#00FF84"
+                    />
+                    <path
+                      d="M11.7404 29.0635L9.14033 31.5409C8.78735 31.8772 8.78735 32.3809 9.14033 32.7172C9.31597 32.8845 9.53637 32.9698 9.75675 32.9698C9.97714 32.9698 10.1976 32.8862 10.3732 32.7172L12.9732 30.2399C13.3262 29.9035 13.3262 29.3999 12.9732 29.0635C12.6219 28.7272 12.0503 28.7272 11.7403 29.0635H11.7404Z"
+                      fill="#00FF84"
+                    />
+                    <path
+                      d="M33.4296 29.0635C33.0766 28.7272 32.548 28.7272 32.195 29.0635C31.842 29.3999 31.842 29.9035 32.195 30.2399L34.7951 32.7172C34.9707 32.8845 35.1911 32.9698 35.4115 32.9698C35.6319 32.9698 35.8523 32.8862 36.0279 32.7172C36.3809 32.3809 36.3809 31.8772 36.0279 31.5409L33.4296 29.0635Z"
+                      fill="#00FF84"
+                    />
+                  </svg>
+                </div>
+
+                <h3 class="mb-5 text-center text-lg font-semibold md:text-xl">
+                  Discover
+                </h3>
+                <p class="text-center text-gray-500">
+                  We uncover students unique skills to stand out in a crowded
+                  job market
+                </p>
+                <span
+                  class="shade absolute -top-[60%] right-0 h-full text-[12.75rem] font-bold text-red-500/5"
+                  >1</span
+                >
+              </div>
+              <!-- feature-card-1 end-->
+
+              <!-- feature-card-2 start-->
+              <div class="relative flex flex-col items-center">
+                <div
+                  class="mb-6 flex h-12 w-12 items-center justify-center text-indigo-500 sm:mb-4 md:h-14 md:w-14"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="43"
+                    height="40"
+                    viewBox="0 0 43 40"
+                    fill="none"
+                  >
+                    <path
+                      d="M37.9111 10.1032L32.2206 4.68125C32.1041 4.56875 31.9483 4.50781 31.7827 4.50781C31.6187 4.50781 31.4613 4.56875 31.3448 4.68125L22.2647 13.3312L23.142 14.1656L31.7826 5.93281L36.5958 10.5204L35.0904 11.9548L32.3632 9.35477C32.1205 9.12508 31.7302 9.12508 31.4875 9.35477C31.2448 9.58758 31.2448 9.95945 31.4875 10.1891L34.2147 12.7891L32.4895 14.4329L30.7676 12.7922C30.5249 12.5594 30.1346 12.5594 29.8919 12.7922C29.6492 13.0219 29.6492 13.3954 29.8919 13.6266L31.6138 15.2672L29.8886 16.911L27.1598 14.311C26.9171 14.0798 26.5269 14.0798 26.2842 14.311C26.0415 14.5423 26.0415 14.9141 26.2842 15.1454L29.0129 17.7454L27.9601 18.7485L28.8358 19.5829L37.9159 10.9328C38.1521 10.7078 38.1521 10.3344 37.911 10.1032L37.9111 10.1032Z"
+                      fill="#00FF84"
+                    />
+                    <path
+                      d="M19.4738 26.8344L16.7467 24.236C16.504 24.0047 16.1137 24.0047 15.871 24.236C15.6283 24.4672 15.6283 24.8391 15.871 25.0703L18.5981 27.6688L16.8729 29.3141L15.151 27.6734C14.9083 27.4422 14.5164 27.4422 14.2737 27.6734C14.031 27.9047 14.031 28.2766 14.2737 28.5078L15.9956 30.1484L14.2704 31.7906L11.5433 29.1938C11.3006 28.9609 10.9087 28.9609 10.666 29.1938C10.4233 29.4234 10.4233 29.7969 10.666 30.0281L13.3931 32.6266L11.8877 34.0625L7.07456 29.4733L15.7135 21.2421L14.8378 20.4077L5.75933 29.0561C5.51662 29.2874 5.51662 29.6592 5.75933 29.8905L11.4499 35.3141C11.5663 35.4235 11.7221 35.4875 11.8877 35.4875C12.0517 35.4875 12.2092 35.4234 12.3256 35.3141L21.404 26.6641L20.5267 25.8297L19.4738 26.8344Z"
+                      fill="#00FF84"
+                    />
+                    <path
+                      d="M35.1366 27.2657L14.6086 7.70649L13.2377 6.39712C12.2668 5.469 10.6056 5.41276 9.70696 6.27212L7.42586 8.44712C6.49111 9.33776 6.55182 10.8471 7.5587 11.808L29.4595 32.6769C29.7448 32.9456 30.2204 33.3925 35.4468 34.5206C35.555 34.5425 35.6633 34.555 35.7715 34.555C36.1356 34.555 36.475 34.4237 36.7259 34.1831C37.0473 33.8737 37.1769 33.4222 37.0736 32.9738C35.8896 27.9846 35.4173 27.5345 35.1368 27.2657L35.1366 27.2657ZM8.43568 10.9721C7.90928 10.4721 7.84861 9.71273 8.30121 9.27988L10.5807 7.108C10.7758 6.9205 11.0497 6.81738 11.3481 6.81738C11.7122 6.81738 12.0812 6.96894 12.3583 7.23302L13.293 8.12366L9.36875 11.8627L8.43568 10.9721ZM29.3016 29.3253C29.0851 29.2612 28.849 29.3159 28.6883 29.4659C28.5276 29.6175 28.4636 29.8393 28.5243 30.0472L28.5522 30.1425L10.2463 12.6973L14.1722 8.95818L32.3601 26.291C32.1469 26.2379 31.9223 26.291 31.7665 26.4363C31.6058 26.5879 31.5435 26.8097 31.6041 27.0144L31.9272 28.1238L30.8416 27.8082C30.6251 27.7441 30.389 27.8003 30.2283 27.9519C30.0659 28.1003 30.0036 28.3253 30.0643 28.5331L30.3874 29.6394L29.3016 29.3253ZM30.3347 31.8409L30.0231 30.769L31.1022 31.0847C31.3219 31.1456 31.5646 31.0878 31.7253 30.9331C31.8828 30.7815 31.9451 30.5612 31.8828 30.3565L31.5614 29.2534L32.6437 29.5675C32.8585 29.6316 33.0946 29.5753 33.257 29.4237C33.4177 29.2753 33.4816 29.0519 33.421 28.8456L33.0946 27.7253L34.1802 28.0284L34.2622 28.105C34.3508 28.1894 34.5082 28.4519 34.7509 29.1519L31.4416 32.3081C30.7004 32.0722 30.4265 31.9253 30.3347 31.8409L30.3347 31.8409ZM35.8464 33.3534C35.8317 33.3659 35.8054 33.3753 35.7743 33.3753L35.7251 33.3675C34.4853 33.1018 33.5342 32.8753 32.7913 32.6847L35.1495 30.4378C35.3495 31.144 35.5857 32.0503 35.8677 33.23C35.8759 33.2831 35.8677 33.3316 35.8464 33.3534L35.8464 33.3534Z"
+                      fill="#00FF84"
+                    />
+                  </svg>
+                </div>
+
+                <h3 class="mb-5 text-center text-lg font-semibold md:text-xl">
+                  Interact
+                </h3>
+                <p class="text-center text-gray-500">
+                  We open doors to new opportunities by expanding your
+                  transferrable skills
+                </p>
+                <span
+                  class="shade absolute -top-[60%] right-0 h-full text-[12.75rem] font-bold text-red-500/5"
+                  >2</span
+                >
+              </div>
+              <!-- feature-card-2 end-->
+
+              <!-- feature-card-3 start-->
+              <div class="relative flex flex-col items-center">
+                <div
+                  class="mb-6 flex h-12 w-12 items-center justify-center text-indigo-500 sm:mb-4 md:h-14 md:w-14"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="43"
+                    height="40"
+                    viewBox="0 0 43 40"
+                    fill="none"
+                  >
+                    <path
+                      d="M37.0816 23.1279H34.9284V6.72792C34.9219 5.66228 34.015 4.80136 32.8966 4.7998H10.5546C9.4313 4.80137 8.52283 5.67012 8.52283 6.74044V23.1404H6.36965C5.90555 23.1404 5.53003 23.4983 5.53003 23.9404V33.2592C5.53003 34.3296 6.43854 35.1983 7.56184 35.1999H35.8895C37.0128 35.1983 37.9213 34.3296 37.9213 33.2592V23.928C37.9213 23.7155 37.8344 23.5124 37.677 23.3624C37.5195 23.2124 37.3047 23.128 37.0817 23.128L37.0816 23.1279ZM10.2136 6.72792C10.2136 6.54199 10.3711 6.39042 10.5678 6.3873H32.8968C33.092 6.39043 33.2494 6.54199 33.2494 6.72792V23.1279H30.7305C30.3156 23.1232 29.9581 23.4092 29.8909 23.7998L29.4334 26.492H14.0267L13.5692 23.7998C13.5019 23.4092 13.1461 23.1232 12.7296 23.1279H10.2107L10.2136 6.72792ZM36.242 33.2483C36.242 33.4343 36.0862 33.5858 35.8894 33.5874H7.56174C7.36495 33.5858 7.20916 33.4343 7.20916 33.2483V24.7279H12.024L12.4897 27.4201C12.557 27.8107 12.9128 28.0967 13.3293 28.092H30.1647C30.5796 28.0967 30.937 27.8108 31.0043 27.4201L31.4618 24.7279H36.2422L36.242 33.2483Z"
+                      fill="#00FF84"
+                    />
+                    <path
+                      d="M23.884 29.8591H19.5679C19.1038 29.8591 18.7283 30.2185 18.7283 30.6591C18.7283 31.1013 19.1038 31.4591 19.5679 31.4591H23.884C24.3481 31.4591 24.7236 31.1013 24.7236 30.6591C24.7236 30.2185 24.3481 29.8591 23.884 29.8591Z"
+                      fill="#00FF84"
+                    />
+                    <path
+                      d="M18.7413 15.0919L20.8863 12.6591V22.4311C20.8863 22.8733 21.2618 23.2311 21.7259 23.2311C22.19 23.2311 22.5655 22.8733 22.5655 22.4311V12.6591L24.7105 15.0904V15.0919C24.8712 15.2716 25.1057 15.3763 25.3533 15.3763C25.5485 15.3779 25.7387 15.3154 25.8912 15.1997C26.2438 14.9169 26.2913 14.4138 25.9961 14.0763L22.3687 9.94829C22.2031 9.77642 21.9702 9.67798 21.7259 9.67798C21.4816 9.67798 21.2487 9.77642 21.0831 9.94829L17.4557 14.0639C17.1834 14.403 17.2392 14.8873 17.5819 15.1639C17.9263 15.4389 18.438 15.4076 18.7413 15.092L18.7413 15.0919Z"
+                      fill="#00FF84"
+                    />
+                  </svg>
+                </div>
+
+                <h3 class="mb-5 text-center text-lg font-semibold md:text-xl">
+                  Engage
+                </h3>
+                <p class="text-center text-gray-500">
+                  To forester a skill focussed environment that enable students
+                  to navigate their ideal career
+                </p>
+                <span
+                  class="shade absolute -top-[60%] right-0 h-full text-[12.75rem] font-bold text-red-500/5"
+                  >3</span
+                >
+              </div>
+              <!-- feature-card-3 end-->
             </div>
           </div>
         </div>

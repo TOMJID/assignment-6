@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
       lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
     },
-    false
+    false,
   );
 
   const contactBtnDesktop = document.getElementById("contact-btn-desktop");
