@@ -46,5 +46,5 @@ body::-webkit-scrollbar-thumb {
 }
 
 #hero {
-  background-image: url(Hero.png);
+  background-image: url(/Hero.jpg);
 }
