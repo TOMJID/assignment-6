@@ -20,6 +20,7 @@
                 src="/logo.png"
                 alt="logo"
                 class="transition-all hover:scale-105"
+                loading="lazy"
               />
             </a>
           </div>
@@ -158,10 +159,7 @@
     </nav>
 
     <main>
-      <section
-        id="hero"
-        class="top-0 -z-1 h-screen w-full  bg-cover bg-center"
-      >
+      <section id="hero" class="top-0 -z-1 h-screen w-full bg-cover bg-center">
         <div
           class="container mx-auto my-auto flex h-150 flex-col items-center justify-center text-center text-white"
         >
@@ -379,7 +377,8 @@
                     <img
                       src="/m2.jpg"
                       alt=""
-                      class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-lg transition-all hover:animate-bounce"
+                      class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-lg transition-all hover:scale-105"
+                      loading="lazy"
                     />
                   </div>
 
@@ -392,7 +391,8 @@
                     <img
                       src="/m1.jpg"
                       alt=""
-                      class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-xl transition-all hover:animate-bounce"
+                      loading="lazy"
+                      class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-xl transition-all hover:scale-105"
                     />
                   </div>
 
@@ -402,7 +402,8 @@
                     <img
                       src="/middle.jpg"
                       alt=""
-                      class="h-full w-full rounded-[1rem] object-cover shadow-md transition-all hover:animate-bounce"
+                      loading="lazy"
+                      class="h-full w-full rounded-[1rem] object-cover shadow-md transition-all hover:scale-105"
                     />
                   </div>
 
@@ -412,7 +413,8 @@
                     <img
                       src="/m3.jpg"
                       alt=""
-                      class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-lg transition-all hover:animate-bounce"
+                      loading="lazy"
+                      class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-lg transition-all hover:scale-105"
                     />
                   </div>
 
@@ -422,26 +424,17 @@
                     <img
                       src="/combined-shape.png"
                       alt=""
-                      class="absolute top-[-25px] right-[-25px] z-[-99] h-full w-full rounded-[1rem] transition-all hover:animate-bounce"
+                      loading="lazy"
+                      class="absolute top-[-25px] right-[-25px] z-[-99] h-full w-full rounded-[1rem] transition-all hover:scale-105"
                     />
                     <img
                       src="/m4.jpg"
                       alt=""
-                      class="h-full w-full rounded-[1rem] object-cover shadow-md transition-all hover:animate-bounce"
+                      loading="lazy"
+                      class="h-full w-full rounded-[1rem] object-cover shadow-md transition-all hover:scale-105"
                     />
                   </div>
                 </div>
-
-                <img
-                  src="/Path.jpg"
-                  alt=""
-                  class="absolute right-0 bottom-0 left-0 z-[-2] mx-auto"
-                />
-                <img
-                  src="/Oval.jpg"
-                  alt=""
-                  class="absolute right-0 bottom-0 left-0 z-[-2] mx-auto"
-                />
               </div>
 
               <!-- Item 2: Vision -->
@@ -460,7 +453,8 @@
                     <img
                       src="/v2.jpg"
                       alt=""
-                      class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-lg transition-all hover:animate-bounce"
+                      loading="lazy"
+                      class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-lg transition-all hover:scale-105"
                     />
                   </div>
 
@@ -474,7 +468,8 @@
                     <img
                       src="/v1.jpg"
                       alt=""
-                      class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-xl transition-all hover:animate-bounce"
+                      loading="lazy"
+                      class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-xl transition-all hover:scale-105"
                     />
                   </div>
 
@@ -485,7 +480,8 @@
                     <img
                       src="/v-middle.jpg"
                       alt=""
-                      class="h-full w-full rounded-[1rem] object-cover shadow-md transition-all hover:animate-bounce"
+                      loading="lazy"
+                      class="h-full w-full rounded-[1rem] object-cover shadow-md transition-all hover:scale-105"
                     />
                   </div>
 
@@ -496,7 +492,8 @@
                     <img
                       src="/v3.jpg"
                       alt=""
-                      class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-lg transition-all hover:animate-bounce"
+                      loading="lazy"
+                      class="relative z-10 h-full w-full rounded-[1rem] object-cover shadow-lg transition-all hover:scale-105"
                     />
                   </div>
 
@@ -507,12 +504,14 @@
                     <img
                       src="/combined-shape.png"
                       alt=""
+                      loading="lazy"
                       class="absolute top-[-30px] left-[30px] z-[-1] h-full w-full rounded-[1rem]"
                     />
                     <img
                       src="/v4.jpg"
                       alt=""
-                      class="h-full w-full rounded-[1rem] object-cover shadow-md transition-all hover:animate-bounce"
+                      loading="lazy"
+                      class="h-full w-full rounded-[1rem] object-cover shadow-md transition-all hover:scale-105"
                     />
                   </div>
                 </div>
@@ -567,13 +566,6 @@
                     </div>
                   </button>
                 </div>
-
-                <!-- Background decoration -->
-                <img
-                  src="/Oval.jpg"
-                  alt=""
-                  class="absolute inset-0 z-[-2] mx-auto"
-                />
               </div>
             </div>
           </div>
@@ -808,13 +800,11 @@
               <!-----Image-Background-element------->
               <div
                 class="absolute -top-[20%] -right-[1%] z-[-1] hidden md:block"
-              >
-                <img src="./src/images/team/element.svg" alt="" />
-              </div>
+              ></div>
 
               <!-- Team-1 Start -->
               <div
-                class="flex h-[20rem] w-full cursor-pointer flex-col items-center rounded-lg bg-white p-6 shadow-xl transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl md:w-[17rem] lg:p-6"
+                class="flex h-[20rem] w-full cursor-pointer flex-col items-center rounded-lg bg-white p-6 shadow-xl transition-transform duration-300 ease-in-out hover:scale-95 hover:shadow-2xl md:w-[17rem] lg:p-6"
               >
                 <!-- Profile Image -->
                 <div
@@ -917,7 +907,7 @@
 
               <!-- Team-2 Start -->
               <div
-                class="flex h-[20rem] w-full cursor-pointer flex-col items-center rounded-lg bg-white p-6 shadow-xl transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl md:w-[17rem] lg:p-6"
+                class="flex h-[20rem] w-full cursor-pointer flex-col items-center rounded-lg bg-white p-6 shadow-xl transition-transform duration-300 ease-in-out hover:scale-95 hover:shadow-2xl md:w-[17rem] lg:p-6"
               >
                 <!-- Profile Image -->
                 <div
@@ -1020,7 +1010,7 @@
 
               <!-- Team-3 Start -->
               <div
-                class="flex h-[20rem] w-full cursor-pointer flex-col items-center rounded-lg bg-white p-6 shadow-xl transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl md:w-[17rem] lg:p-6"
+                class="flex h-[20rem] w-full cursor-pointer flex-col items-center rounded-lg bg-white p-6 shadow-xl transition-transform duration-300 ease-in-out hover:scale-95 hover:shadow-2xl md:w-[17rem] lg:p-6"
               >
                 <!-- Profile Image -->
                 <div
@@ -1123,7 +1113,7 @@
 
               <!-- Team-4 Start -->
               <div
-                class="flex h-[20rem] w-full cursor-pointer flex-col items-center rounded-lg bg-white p-6 shadow-xl transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl md:w-[17rem] lg:p-6"
+                class="flex h-[20rem] w-full cursor-pointer flex-col items-center rounded-lg bg-white p-6 shadow-xl transition-transform duration-300 ease-in-out hover:scale-95 hover:shadow-2xl md:w-[17rem] lg:p-6"
               >
                 <!-- Profile Image -->
                 <div
@@ -1227,9 +1217,7 @@
               <!-----Image-Background-element------->
               <div
                 class="absolute -bottom-[20%] -left-[1%] z-[-1] hidden md:block"
-              >
-                <img src="./src/images/team/element.svg" alt="" />
-              </div>
+              ></div>
             </div>
           </div>
         </div>
@@ -1240,7 +1228,7 @@
           class="mx-auto grid max-w-screen-xl grid-cols-2 gap-8 pt-10 pb-16 md:grid-cols-4 lg:grid-cols-6"
         >
           <!-- Logo + Address -->
-          <div class="col-span-full lg:col-span-2">
+          <div class="flex flex-wrap items-center justify-around">
             <a
               href="/"
               class="mb-4 inline-flex items-center gap-2 text-xl font-bold md:text-2xl"
@@ -1248,6 +1236,7 @@
               <img
                 src="/logo.png"
                 alt="Creatives for you"
+                loading="lazy"
                 class="h-6 w-32 md:h-10"
               />
             </a>
